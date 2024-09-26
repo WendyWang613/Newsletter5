@@ -1,0 +1,2320 @@
+  <!DOCTYPE html>
+                            <html lang="en"
+                                  xmlns="http://www.w3.org/1999/xhtml"
+                                  xmlns:v="urn:schemas-microsoft-com:vml"
+                                  xmlns:o="urn:schemas-microsoft-com:office:office"
+                                  xmlns:w="urn:schemas-microsoft-com:office:word">
+                            <head>
+                            <meta charset="utf-8">
+                            <meta name="viewport" content="width=device-width">
+                            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                            <meta name="x-apple-disable-message-reformatting" />
+                            <style id="emailStyle">
+
+            :root {
+              --gold: #be830e;
+              --gold-tint: #f5edde;
+              --charcoal: #262626;
+              --black-94: #0f0f0f;
+              --black: #000000;
+              --white: #ffffff;
+              --blue: #0000EE;
+              --grey: #0d0d0d;
+            }
+			.mcnPreviewText{display: none !important;}
+            /** START Overflow Styles **/
+            .overflow {
+              position: relative !important;
+              border: 1px dashed red;
+              color: red !important;
+            }
+
+            .overflow * { 
+              color: inherit !important; 
+            }
+
+            .overflow {
+              border: none;
+              box-shadow: 0 0 0 0.0362rem red;
+              background: rgba(255, 0, 0, 0.4);
+              position: relative;
+              z-index: 999;}
+            .overflow h1, 
+            .overflow h2, 
+            .overflow h3, 
+            .overflow h4, 
+            .overflow h5, 
+            .overflow h6, 
+            .overflow p, 
+            .overflow li { color: red !important; } 
+            .overflow::before {
+              content: '+';
+              position: absolute;
+              z-index: 5;
+              top: 0;
+              right: 0;
+              height: 1.2em;
+              width: 1.2em;
+              max-height: 100%;
+              color: red;
+              padding: 0;
+              box-sizing: border-box;
+              font-family: 'Arial';
+              font-size: 0.8em;
+              text-align: center;
+              line-height: 1.2em;
+              background-color: white;
+              text-align: center;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            }
+            .overflow:hover:before {
+              background-color: red;
+              color: white; }
+            .overflow:after {
+              display: none; }
+            .overflow:hover:after {
+              display: block;
+              content: 'Max number of lines exceeded!';
+              position: absolute;
+              top: 0;
+              right: 0;
+              background-color: black;
+              color: white;
+              border-radius: 0;
+              padding: 0 1.5em 0 0.5em;
+              box-sizing: border-box;
+              max-height: 100%;
+              font-family: 'Arial';
+              font-size: 0.8em;
+              font-weight: 400;
+              text-align: right;
+              line-height: 1.2em;
+              z-index: 2;
+            }
+
+            .overflow[data-max-height]:hover:after {
+              content: 'Max height exceeded!';  
+            }      
+
+            .overflow[data-wc-hook="container"]:hover:after {
+              content: 'Max word limit exceeded';        
+            }      
+
+            .overflow[data-custom-overflow-message]:hover:after {
+              content: attr(data-custom-overflow-message);
+            }
+
+            .overflow .token-value.token-empty {
+              display: none;
+            }
+            /** END Overflow Styles  **/
+
+            /* START Small fix that prevents Superscript and Subscript from breaking the element's line-height  */
+            sup,
+            sub {
+              vertical-align: baseline;
+              position: relative;
+              top: -0.4em;        
+              line-height: 1em;
+            }
+
+            sub {
+              top: 0.4em;
+            }   
+            /* END Small fix that prevents Superscript and Subscript from breaking the element's line-height  */
+
+            /* START Various client-specific fixes */
+            html {
+              border-spacing: 0px !important;
+            }
+              
+            body, table, td, a, span, p {
+              font-family: "Public Sans", Arial, sans-serif !important;
+            }  
+
+            #outlook a {
+              padding: 0;
+            }
+
+            img {
+              outline: none;
+              text-decoration: none;
+              -ms-interpolation-mode: bicubic;
+            }
+
+            a img {
+              border: none;
+            }
+
+
+
+            td,p,ul,h1,h2 {
+              margin-block-end: 0;
+              margin-block-start: 0;
+            }      
+
+            ul {
+              padding-inline-start: 15px !important;
+            }
+            /* END Various client-specific fixes */
+
+
+            /* START Mobile styles max-width 600px */
+            @media screen and (max-width: 600px) {
+              .mainwrap {
+                width: 100% !important;
+                margin: auto !important;
+              }   
+
+              .colwrap {
+                display: block !important;
+                width: 100% !important;
+                color: red !important;
+              }      
+
+              .mob-float-none {
+                float: none !important;
+              }
+
+              .imgfill {
+                width: 100% !important;
+                height: auto !important;
+                padding: 0px !important;
+              } 
+
+            }
+            /* END Mobile styles max-width 600px */
+
+            /* Start Mobile styles below 600px */
+            @media screen and (max-width: 599px) {
+              
+              .partner-logo-wrap {
+                padding-right: 0 !important;
+              }
+              
+              .partner-logo {
+                height: auto;
+                width: 100%;
+              }
+
+              .headline-heading {
+                max-height: none;
+              }
+
+              .feature-image-parent {
+                height: auto !important;
+              }
+
+              .feature-image {
+                height: auto !important;
+                width: 100% !important;
+              }
+              
+              .univ-tagline {
+                display: inline-block;
+                width: auto;
+                padding-left: 42px;
+                border-left: 1px solid #be830e;
+                margin-left: 35px;
+                
+              }
+
+              .univ-tagline div{
+                min-width: 130px;
+                min-height: 17.5px;
+              } 
+              
+              .fullWidthBelow600 {
+                display: block !important;
+                width: 100% !important;
+                box-sizing: border-box;
+              }
+              
+              .mt25Below600 {
+                margin-top: 25px;
+              }
+              
+              .mt10Below600 {
+                margin-top: 10px;
+              }
+              
+              .pt25Below600 {
+                padding-top: 25px;
+              }
+              
+              td.h-infographic {
+                display: inline-block;
+                width: 200px;
+                padding-bottom: 10px;
+              }
+              
+              .splitSecImage,
+              .splitSecBodyCopy .tdBodyCopy {                  
+                  padding-left: 41px !important;
+                  padding-right: 41px !important;
+              }
+              
+              .splitSecImage {
+                padding-top: 60px !important;
+              }     
+              
+              .splitSecBodyCopy .tdBodyCopy { 
+                padding-top: 10px !important;
+                padding-bottom: 30px !important;
+              }
+
+              .footer table[class="table-right"] {
+                margin-top: 30px;
+              }
+
+              table[class="table-item"] {
+                margin-bottom: 15px;
+              }
+
+              .hideOn599below {
+                display: none !important;
+              }
+              
+              
+              .line-after-logo {
+                height: 220px !important;
+              }
+
+            }
+             /* END Mobile styles below 600px */
+
+            /* START styles 600px and above */
+            @media screen and (min-width: 600px)
+            {
+              .headline-heading {
+                max-height: 88px;
+              }
+
+              .hideOn600above {
+                display: none !important;
+              }
+              .hideOn600above img {
+                display: none !important;
+              }
+
+            }
+            /* END styles 600px and above */
+
+            /* START Mobile styles max-width 480px */
+            @media screen and (max-width: 480px) { 
+              .feat-img-collab {
+                width: 100%;
+                height: auto;
+              }
+              .colwrap-small {
+                display: block !important;
+                width: 100% !important;
+              }  
+              .pad-mob-0 {
+                padding: 0 !important;
+              }       
+              .pad-r-0 {
+                padding-right: 0 !important;
+              }
+            }
+            /* END Mobile styles max-width 480px */
+
+
+            strong {
+              font-weight: 600 !important;
+            }
+            
+            .text-block h2 {
+              font-size: 1em;
+            }
+            
+            /* DTB-4570 RJ */
+            .text-block-rj {
+              /*background: rgb(245, 237, 222) none repeat scroll 0% 0% !important; - commented 31/1/22 - background color of blocks are being declared thru a js script. please see external.js - this only works in the light theme and  overrides the block background color in dark and dark grey themes */
+            }
+            .text-block-heading {
+              font-family: "Public Sans", Arial, sans-serif; 
+              font-weight: 600;
+            }
+            .text-block-paragraph {
+              font-family: "Public Sans", Arial, sans-serif; 
+              font-size: 13.9px;
+              line-height: 22.24px;
+            }
+              .exportEmailInstructionsContainer {
+                margin-left: 0px;
+                margin-bottom: 0px;
+              }
+              .exportEmailInstructionsContainer p, .exportEmailInstructionsContainer ul, .exportEmailInstructionsContainer h1, .exportEmailInstructionsContainer h2, .exportEmailInstructionsContainer h3 {
+                color: #000 !important;
+              }
+            /*table.fullWidthBelow600 tbody tr:first-child td table tbody tr:nth-child(2) td table tbody tr:last-child td:last-child {
+              min-width: 140.5px;
+            }
+            table.fullWidthBelow600 tbody tr:first-child td table tbody tr:nth-child(2) td table tbody tr:last-child td:first-child {
+              width: 0px !important;
+              max-width: 0px !important;
+            }  */
+              
+          </style>
+                            <!--[if mso]>
+                            <style>ul,ol { margin-left: 8px!important;}</style>
+                            <![endif]-->
+                            </head>
+                            <body>
+                            <td id="email">
+          <!--*|IF:MC_PREVIEW_TEXT|*-->
+          <!--[if !gte mso 9]><!---->
+          <span class="mcnPreviewText" style="display:none; font-size:0px; line-height:0px; max-height:0px; max-width:0px; opacity:0; overflow:hidden; visibility:hidden; mso-hide:all;">*|MC_PREVIEW_TEXT|*</span>
+          <!--<![endif]-->
+          <!--*|END:IF|*-->
+          <style>
+
+            :root {
+              --gold: #be830e;
+              --gold-tint: #f5edde;
+              --charcoal: #262626;
+              --black-94: #0f0f0f;
+              --black: #000000;
+              --white: #ffffff;
+              --blue: #0000EE;
+              --grey: #262626;
+            }
+
+            /** START Overflow Styles **/
+            .overflow {
+              position: relative !important;
+              border: 1px dashed red;
+              color: red !important;
+            }
+
+            .overflow * { 
+              color: inherit !important; 
+            }
+
+            .overflow {
+              border: none;
+              box-shadow: 0 0 0 0.0362rem red;
+              background: rgba(255, 0, 0, 0.4);
+              position: relative;
+              z-index: 999;}
+            .overflow h1, 
+            .overflow h2, 
+            .overflow h3, 
+            .overflow h4, 
+            .overflow h5, 
+            .overflow h6, 
+            .overflow p, 
+            .overflow li { color: red !important; } 
+            .overflow::before {
+              content: '+';
+              position: absolute;
+              z-index: 5;
+              top: 0;
+              right: 0;
+              height: 1.2em;
+              width: 1.2em;
+              max-height: 100%;
+              color: red;
+              padding: 0;
+              box-sizing: border-box;
+              font-family: 'Arial';
+              font-size: 0.8em;
+              text-align: center;
+              line-height: 1.2em;
+              background-color: white;
+              text-align: center;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            }
+            .overflow:hover:before {
+              background-color: red;
+              color: white; }
+            .overflow:after {
+              display: none; }
+            .overflow:hover:after {
+              display: block;
+              content: 'Max number of lines exceeded!';
+              position: absolute;
+              top: 0;
+              right: 0;
+              background-color: black;
+              color: white;
+              border-radius: 0;
+              padding: 0 1.5em 0 0.5em;
+              box-sizing: border-box;
+              max-height: 100%;
+              font-family: 'Arial';
+              font-size: 0.8em;
+              font-weight: 400;
+              text-align: right;
+              line-height: 1.2em;
+              z-index: 2;
+            }
+
+            .overflow[data-max-height]:hover:after {
+              content: 'Max height exceeded!';  
+            }      
+
+            .overflow[data-wc-hook="container"]:hover:after {
+              content: 'Max word limit exceeded';        
+            }      
+
+            .overflow[data-custom-overflow-message]:hover:after {
+              content: attr(data-custom-overflow-message);
+            }
+
+            .overflow .token-value.token-empty {
+              display: none;
+            }
+            /** END Overflow Styles  **/
+
+            /* START Small fix that prevents Superscript and Subscript from breaking the element's line-height  */
+            sup,
+            sub {
+              vertical-align: baseline;
+              position: relative;
+              top: -0.4em;        
+              line-height: 1em;
+            }
+
+            sub {
+              top: 0.4em;
+            }   
+            /* END Small fix that prevents Superscript and Subscript from breaking the element's line-height  */
+
+            /* START Various client-specific fixes */
+            html {
+              border-spacing: 0px !important;
+            }
+            
+            body, table, td, a, span, p {
+              font-family: "Public Sans", Arial, sans-serif !important;
+            }  
+
+            #outlook a {
+              padding: 0;
+            }
+
+            img {
+              outline: none;
+              text-decoration: none;
+              -ms-interpolation-mode: bicubic;
+            }
+
+            a img {
+              border: none;
+            }
+
+
+
+            td,p,ul,h1,h2 {
+              margin-block-end: 0;
+              margin-block-start: 0;
+            }      
+
+            ul {
+              padding-inline-start: 15px !important;
+            }
+            /* END Various client-specific fixes */
+
+
+            /* START Mobile styles max-width 600px */
+            @media screen and (max-width: 600px) {
+              .mainwrap {
+                width: 100% !important;
+                margin: auto !important;
+              }   
+
+              .colwrap {
+                display: block !important;
+                width: 100% !important;
+                color: red !important;
+              }      
+
+              .mob-float-none {
+                float: none !important;
+              }
+
+              .imgfill {
+                width: 100% !important;
+                height: auto !important;
+                padding: 0px !important;
+              } 
+
+            }
+            /* END Mobile styles max-width 600px */
+
+            /* Start Mobile styles below 600px */
+            @media screen and (max-width: 599px) {
+              
+              .partner-logo-wrap {
+                padding-right: 0 !important;
+              }
+              
+              .partner-logo {
+                height: auto;
+                width: 100%;
+              }
+
+              .headline-heading {
+                max-height: none;
+              }
+
+              .feature-image-parent {
+                height: auto !important;
+              }
+
+              .feature-image {
+                height: auto !important;
+                width: 100% !important;
+              }
+              
+              .univ-tagline {
+                display: inline-block;
+                width: auto;
+                padding-left: 42px;
+                border-left: 1px solid #be830e;
+                margin-left: 35px;
+              }
+              
+              .fullWidthBelow600 {
+                display: block !important;
+                width: 100% !important;
+                box-sizing: border-box;
+              }
+              
+              .mt25Below600 {
+                margin-top: 25px;
+              }
+              
+              .mt10Below600 {
+                margin-top: 10px;
+              }
+              
+              .pt25Below600 {
+                padding-top: 25px;
+              }
+              
+              td.h-infographic {
+                display: inline-block;
+                width: 200px;
+                padding-bottom: 10px;
+              }
+              
+              .splitSecImage,
+              .splitSecBodyCopy .tdBodyCopy {                  
+                  padding-left: 41px !important;
+                  padding-right: 41px !important;
+              }
+              
+              .splitSecImage {
+                padding-top: 60px !important;
+              }     
+              
+              .splitSecBodyCopy .tdBodyCopy { 
+                padding-top: 10px !important;
+                padding-bottom: 30px !important;
+              }
+
+              .footer table[class="table-right"] {
+                margin-top: 30px;
+              }
+
+              table[class="table-item"] {
+                margin-bottom: 15px;
+              }
+
+              .hideOn599below {
+                display: none !important;
+              }
+              
+              
+              .line-after-logo {
+                height: 220px !important;
+              }
+
+            }
+             /* END Mobile styles below 600px */
+
+            /* START styles 600px and above */
+            @media screen and (min-width: 600px)
+            {
+              .headline-heading {
+                max-height: 88px;
+              }
+
+              .hideOn600above {
+                display: none !important;
+              }
+              .hideOn600above img {
+                display: none !important;
+              }
+
+            }
+            /* END styles 600px and above */
+
+            /* START Mobile styles max-width 480px */
+            @media screen and (max-width: 480px) { 
+              .feat-img-collab {
+                width: 100%;
+                height: auto;
+              }
+              .colwrap-small {
+                display: block !important;
+                width: 100% !important;
+              }  
+              .pad-mob-0 {
+                padding: 0 !important;
+              }       
+              .pad-r-0 {
+                padding-right: 0 !important;
+              }      
+            }
+            /* END Mobile styles max-width 480px */
+
+
+            strong {
+              font-weight: 600 !important;
+            }
+
+            /* Styles for Copy HTML button */    
+
+            .exportEmailInstructionsContainer p,
+            .exportEmailInstructionsContainer ul,
+            .exportEmailInstructionsContainer h1,
+            .exportEmailInstructionsContainer h2,
+            .exportEmailInstructionsContainer h3 {
+              margin-block-end: 1em;
+              margin-block-start: 0;
+              margin-inline-start: 0;
+              margin-inline-end: 0;
+              color: white;
+            }
+
+            .exportEmailInstructionsContainer p {
+              margin-block-end: 0;
+              margin: 0 0 0.8em;
+            }
+
+            /* END Styles for Copy HTML button */
+            
+            /*
+            .text-block h2 {
+              font-size: 16px;
+            }
+            */
+            /* DTB-4570 RJ */
+            .text-block-rj {
+              /*background: rgb(245, 237, 222) none repeat scroll 0% 0% !important; - commented 31/1/22 - background color of blocks are being declared thru a js script. please see external.js - this only works in the light theme and  overrides the block background color in dark and dark grey themes */
+            }
+            .text-block-heading {
+              font-family: "Public Sans", Arial, sans-serif; 
+              font-weight: 600;
+            }
+            .text-block-paragraph {
+              font-family: "Public Sans", Arial, sans-serif; 
+              font-size: 13.9px;
+              line-height: 22.24px;
+              font-weight: 300;
+            }
+            /*table.fullWidthBelow600 tbody tr:first-child td table tbody tr:nth-child(2) td table tbody tr:last-child td:last-child {
+              min-width: 140.5px;
+            }
+            table.fullWidthBelow600 tbody tr:first-child td table tbody tr:nth-child(2) td table tbody tr:last-child td:first-child {
+              width: 0px !important;
+              max-width: 0px !important;
+            }*/
+            
+          </style>
+          <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap">
+      
+                <!--#### MAIN WRAPPER ####-->
+
+                <table width="600" class="mainwrap" valign="top" border="0" cellpadding="0" cellspacing="0" role="presentation" data-fi-hook="parent" style="mso-padding-alt: 0; mso-cellspacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; width: 100%; margin: 0 auto; background-color: rgba(0,0,0,0.1); border-collapse: collapse;">
+                  <tbody><tr>
+                    <td>
+                      <p style="display: none;max-height: 0px;overflow: hidden; visibility:hidden; mso-hide:all;">
+                         ͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;
+                      </p>
+                </td>
+            </tr>
+                  <tr>
+                    <td>
+                      <center>
+                        
+                        <table class="fullWidthBelow600" valign="top" width="600" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" role="presentation" data-fi-hook="parent" style="mso-padding-alt: 0; mso-cellspacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; width: 600px; margin: 0 auto; max-width: 600px !important; border-collapse: collapse;">
+                          
+                            <!--#### HEADER WITHOUT IMAGE ####-->
+
+                              <!--#### HEADER WITH COLAB LOGO ####-->
+                              <!--#### //HEADER WITH COLAB LOGO ####-->
+
+                              <!--#### HEADER WITHOUT COLAB LOGO ####-->
+                                <tbody><tr data-bc-hook="static-block" style="background: rgb(255, 255, 255);">
+                                  <td width="100%" valign="top" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; padding-left: 18px; padding-right: 58px;">
+                                    <table width="100%" valign="top" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-padding-alt: 0; mso-cellspacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; border-collapse: collapse;">
+                                      <!--#### before logo top line ####-->
+                                      <tbody><tr>
+                                        <td valign="top" width="100%" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;">
+                                          <table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-padding-alt: 0; mso-cellspacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; border-collapse: collapse;">
+                                            
+                                            <!--#### Line before logo ####-->
+                                            <tbody><tr>
+                                              <td valign="top" align="left" width="100%" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; padding-left: 21px;">
+                                                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-padding-alt: 0; mso-cellspacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; border-collapse: collapse;">
+                                                  <tbody><tr>
+                                                    <td style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-size: 0;">
+                                                      <img src="https://files.outfit.io/media_library_items/264945/line-before-logo.png" width="1" height="62" style="display: block; padding: 0; border: 0px;">
+                                                    </td>
+                                                  </tr>
+                                                </tbody></table>
+                                              </td>
+                                            </tr>
+                                            <!--#### //before logo top line ####-->
+                                            <!--#### logo and wayfinder ####-->
+                                            <tr>
+                                              <td width="100%" valign="top" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;">
+                                                <table width="100%" valign="top" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-padding-alt: 0; mso-cellspacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; border-collapse: collapse;">
+                                                  <tbody><tr>
+                                                    <!--#### logo ####-->
+                                                    <td width="152.5" class="fullWidthBelow600" valign="top" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; padding-top: 8px; padding-bottom: 8px; padding-right: 30px;">
+                                                          <img src="https://files.outfit.io/media_library_items/261038/ANU_Primary_Horizontal_GoldBlack-logo.png" alt="Australian National University" width="152.5" height="53.53" style="display: inline-block; padding: 0; border: 0px; vertical-align: top;" data-hlc-hook="logo">
+                                                    </td>                        
+                                                    
+                                                    
+                         
+                                                    <!--#### //logo ####-->
+                                                    <!--#### wayfinder ####-->
+                                                    <td class=" " valign="top" align="right" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-family: Public Sans, Arial, sans-serif;">
+                                                      <table valign="top" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-padding-alt: 0; mso-cellspacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; max-width: 130px; border-collapse: collapse;">
+                                                        <tbody><tr>
+                                                          <td valign="top" style="text-size-adjust: 100%; font-size: 11.85px; line-height: 17.75px; font-family: &quot;Public Sans&quot;, Arial, sans-serif; padding-top: 5px; width: 150px; min-height: 0vw; color: rgb(15, 15, 15);" data-bc-hook="static-block-text">
+                                                            <div style="font-size: 11.85px; line-height: 17.75px;" data-max-line="3"></div>
+                                                          </td>
+                                                        </tr>
+                                                      </tbody></table>
+                                                    </td>
+                                                    <!--#### //wayfinder ####-->
+                                                  </tr>
+                                                </tbody></table>
+                                              </td>
+                                            </tr>
+                                            <!--#### //logo and wayfinder ####-->                                            
+                                            <!--#### below logo line and content ####-->
+                                            <tr>
+                                              <td width="100%" valign="top" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; padding-left: 21px;">
+                                                <table width="100%" valign="top" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-padding-alt: 0; mso-cellspacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; border-left-width: 1px; border-left-color: #be830e; border-left-style: solid; border-collapse: collapse;">
+                                                  <tbody><tr>
+                                                    <!--#### content ####-->
+                                                    <!--### No CTA Button Padding Changes ###-->
+                                                    <!--### With CTA Button Padding Changes ###-->
+                                                    <td valign="top" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; padding-top: 100px; padding-bottom: 85px; padding-left: 44px; padding-right: 65px;">
+                                                      <table width="100%" valign="top" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-padding-alt: 0; mso-cellspacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; border-collapse: collapse;">
+                                                        <!--#### headline ####-->
+                                                        <tbody><tr>
+                                                          <td valign="top" style="text-size-adjust: 100%; padding-bottom: 17px; font-family: &quot;Public Sans&quot;, Arial, sans-serif; font-size: 38.7px; color: rgb(15, 15, 15);" data-bc-hook="static-block-text">
+                                                            <div class="headline-heading" data-max-height="css" style="font-size: 100.0%; line-height: 110%;">
+                                                              <span class="tinymce_style--dark" style="color: #be830e;">澳大利亚国立大学中国中心简报 （第五期）</span>
+                                                            </div>
+                                                          </td>
+                                                        </tr>
+                                                        <!--#### //headline ####-->
+                                                        <!--#### subheadline ####-->
+                                                        <tr>
+                                                          <td valign="top" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; padding-bottom: 22px; font-family: 'Public Sans', Arial, sans-serif; font-size: 14px; line-height: 22.4px; color: #0f0f0f; font-weight: 300;" data-bc-hook="static-block-text">
+                                                            <!--<div data-max-line="12" style="font-size: 14px; line-height: 22.4px;">亲爱的伙伴们，<br /><br />大家好！<br /><br />秋风起，落叶黄。三个月的时光匆匆而过。🍂 秋天，你终于来了。<br /><br />在短暂的休整之后，中国中心和学校的同事们已经满血回归。细数之前几个月我们的工作，仍然是兼具跨度大、频次高、范围广的特点，这与ANU在中国的发展战略以及我们的工作职责密不可分。顺应时代，关注当下，更要求我们在不断变化的世界中坚持&ldquo;以学生和合作伙伴为中心&rdquo;的不变初衷。工作重心从未改变&mdash;&mdash;我们不断探索如何更高效地为ANU的国内合作伙伴及广泛的受众群体提供更优质的信息和服务，努力让ANU学生从入学前到毕业后时刻具有归属感；工作的方式却在不断变化，用Gen Z的语言向新一代年轻人介绍澳大利亚和梦中情校ANU，用最in的方式介绍看似枯燥的科研成果，不断保持更新在线无缝输出ANU最新动态等等。<br /><br />在本期简报中，您将看到中国中心在过去三个月中重点推进的学生就业与校企合作项目、已经开花结果的高中与大学垂直合作计划、大学各大院系主推的新本科项目，以及澳国立作为代表参与的大型活动。<br /><br />这个夏天异常漫长。东南沿海迎来台风摩羯送走贝碧嘉再面对普拉桑，川渝地区经历了几次&ldquo;人工降雨&rdquo;和长达40天的酷暑，遥远的西北寸草不生的祁连山连续多日的暴雨之后居然长出了新芽，这些变化让我们意外，气候变化带来的影响也更加在我们每个人的身边凸显。在刚刚结束的2024年中国国际服务贸易交易会（服贸会）上，我代表澳国立向与会同行介绍了ANU在&ldquo;净零未来&rdquo;这个主题下，一所国立大学已经取得的成就和我们在培养适应绿色未来人才上采取的诸多举措。气候变化和两碳话题距离我们并不遥远，请大家和我们一起努力，为了更加绿色🌳的未来。<br /><br />最后，祝大家国庆节快乐，祖国繁荣昌盛。期待年底再&ldquo;见&rdquo;。<br /><br />Nancy YU<br /><br />澳国立中国中心主任</div>-->
+                                                            <div style="font-size: 14px; line-height: 22.4px;">亲爱的伙伴们，<br><br>大家好！<br><br>秋风起，落叶黄。三个月的时光匆匆而过。🍂 秋天，你终于来了。<br><br>在短暂的休整之后，中国中心和学校的同事们已经满血回归。细数之前几个月我们的工作，仍然是兼具跨度大、频次高、范围广的特点，这与ANU在中国的发展战略以及我们的工作职责密不可分。顺应时代，关注当下，更要求我们在不断变化的世界中坚持“以学生和合作伙伴为中心”的不变初衷。工作重心从未改变——我们不断探索如何更高效地为ANU的国内合作伙伴及广泛的受众群体提供更优质的信息和服务，努力让ANU学生从入学前到毕业后时刻具有归属感；工作的方式却在不断变化，用Gen Z的语言向新一代年轻人介绍澳大利亚和梦中情校ANU，用最in的方式介绍看似枯燥的科研成果，不断保持更新在线无缝输出ANU最新动态等等。<br><br>在本期简报中，您将看到中国中心在过去三个月中重点推进的学生就业与校企合作项目、已经开花结果的高中与大学垂直合作计划、大学各大院系主推的新本科项目，以及澳国立作为代表参与的大型活动。<br><br>这个夏天异常漫长。东南沿海迎来台风摩羯送走贝碧嘉再面对普拉桑，川渝地区经历了几次“人工降雨”和长达40天的酷暑，遥远的西北寸草不生的祁连山连续多日的暴雨之后居然长出了新芽，这些变化让我们意外，气候变化带来的影响也更加在我们每个人的身边凸显。在刚刚结束的2024年中国国际服务贸易交易会（服贸会）上，我代表澳国立向与会同行介绍了ANU在“净零未来”这个主题下，一所国立大学已经取得的成就和我们在培养适应绿色未来人才上采取的诸多举措。气候变化和两碳话题距离我们并不遥远，请大家和我们一起努力，为了更加绿色🌳的未来。<br><br>最后，祝大家国庆节快乐，祖国繁荣昌盛。期待年底再“见”。<br><br>Nancy YU<br><br>澳国立中国中心主任</div>
+                                                          </td>
+                                                        </tr>
+                                                        <!--#### //subheadline ####-->
+                                                        <!--#### cta button and cta button link ####-->
+                                                        <tr>                    
+                                                          <td style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;">
+                                                            <table align="left" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-padding-alt: 0; mso-cellspacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; border-collapse: collapse;">
+                                                              <tbody><tr>
+                                                                <td class="header-cta" style="text-size-adjust: 100%; text-align: center; padding: 10px 14px; border-radius: 5px; font-family: &quot;Public Sans&quot;, Arial, sans-serif; font-size: 12px; line-height: 14.4px; color: rgb(255, 255, 246); text-decoration: none; background: rgb(0, 0, 0); font-weight: 300;" data-bc-hook="cta">
+                                                                  <a href="" target="_blank" title="Call to Action" data-max-line="1" style="display: inline-block; font-family: &quot;Public Sans&quot;, Arial, sans-serif; font-size: 12px; line-height: 14.4px; color: rgb(255, 255, 246); text-transform: uppercase; font-weight: 300; text-decoration: none !important;">
+                                                                    点击链接查看完整版
+                                                                  </a>
+                                                                </td>
+                                                              </tr>
+                                                            </tbody></table>
+                                                          </td>
+                                                        </tr>
+                                                        <!--#### //cta button and cta button link ####-->
+                                                      </tbody></table>
+                                                    </td>
+                                                    <!--#### //content ####-->
+                                                  </tr>
+                                                </tbody></table>
+                                              </td>
+                                            </tr>
+                                            <!--#### //below logo line and content ####-->
+                                          </tbody></table>
+                                        </td>
+                                      </tr>
+                                    </tbody></table>
+                                  </td> 
+                                </tr>
+                              <!--#### //HEADER WITHOUT COLAB LOGO ####-->
+
+                            <!--#### //HEADER WITHOUT IMAGE ####-->
+
+
+
+
+                            
+
+                            
+                            <!--#### INFOGRAPHIC VERTICAL ####-->
+                            <tr data-bc-hook="block" data-bc-block-type="secondary" data-block-background-override="background-shade-1" style="background: rgb(245, 237, 222);">
+                              <!--#### layout table ####-->
+                              <td width="100%" valign="top" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; padding-top: 44px; padding-bottom: 36px; padding-left: 83px; padding-right: 42px;">
+                                <table width="100%" valign="top" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-padding-alt: 0; mso-cellspacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; border-collapse: collapse;">
+
+                                  <!--Block Heading-->
+                                  <tbody><tr>
+                                    <td data-bc-hook="block-text" width="100%" valign="top" style="text-size-adjust: 100%; font-family: &quot;Public Sans&quot;, Arial, sans-serif; font-size: 28.8px; padding-bottom: 30px; color: rgb(15, 15, 15);">
+                                      <span style="font-size: 28.8px; line-height: 34.56px;">2024年第三季度精彩瞬间</span>
+                                    </td>
+                                  </tr>
+                                  <!--End Block Heading-->
+
+                                  <tr>
+                                    <td width="100%" valign="top" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; padding-bottom: 40px;">
+                                      <table width="100%" valign="top" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-padding-alt: 0; mso-cellspacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; border-collapse: collapse;">
+                                        <tbody><tr>
+
+                                          <!--#### Icon ####-->
+                                          <td class="fullWidthBelow600 v-infographic" width="131" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-size: 0;">
+
+                                            <table width="90" height="90" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-padding-alt: 0; mso-cellspacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; border-collapse: collapse;">
+                                              <tbody><tr>
+                                                <td align="center" style="text-size-adjust: 100%; border-radius: 50%; background-size: cover; background-position: center center; background-repeat: no-repeat; background-image: url(&quot;https://files.outfit.io/media_library_items/276719/white-bg.png&quot;);" data-bc-hook="block-icon">
+
+                                                    <img valign="center" src="https://outfit-v2-exports-production.s3-accelerate.amazonaws.com/exports/attachments/040/639/819/original/_Infographic_%28Vertical%29_180x180_Icon.png?1727353526" height="90" width="90" data-image="https://files.outfit.io/media_library_items/625728/16411727268731_.pic.jpg" style="display: block; padding: 0; border: 0px;">
+                                                    
+
+                                                </td>
+                                              </tr>
+                                            </tbody></table>
+
+                                          </td>
+                                          <!--#### //Icon ####-->
+
+                                          <!--#### Body copy ####-->
+                                          <!-- DTB-6839 
+                                          <td class="fullWidthBelow600 bodyCopy"
+                                              valign="top" width="344"
+                                              style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-family: 'Public Sans', Arial, sans-serif;"
+                                              data-max-height="157">-->
+                                          <td class="fullWidthBelow600 bodyCopy" valign="top" width="344" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-family: 'Public Sans', Arial, sans-serif;">
+
+                                            <table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-padding-alt: 0; mso-cellspacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; border-collapse: collapse;">
+
+                                              <!--Heading-->
+                                              <tbody><tr>
+                                                <td data-bc-hook="block-text" width="100%" valign="top" style="text-size-adjust: 100%; font-family: &quot;Public Sans&quot;, Arial, sans-serif; font-size: 28.8px; padding-bottom: 10px; color: rgb(15, 15, 15);">
+                                                  <span style="font-size: 28.8px; line-height: 34.56px;">Genevieve Bell 校长会见中国科技部副部长，深化中澳科技合作</span>
+                                                </td>
+                                              </tr>
+                                              <!-- End Heading-->
+
+                                              <!--Body Copy-->
+                                              <tr>
+                                                <td data-bc-hook="block-text" width="100%" style="text-size-adjust: 100%; font-family: &quot;Public Sans&quot;, Arial, sans-serif; font-size: 13.9px; line-height: 21.54px; font-weight: 300; color: rgb(15, 15, 15);"><br>9月19日，澳大利亚国立大学（ANU）校长Genevieve Bell教授会见了中国科技部副部长邱勇先生。Bell教授向邱部长介绍了澳大利亚唯一一所国立大学的历史、使命和宗旨，并强调了我校在社会科学与自然科学融合及高影响力研究方面的卓越表现。邱副部长提到在堪培拉举行的第十届中澳科技联委会会议，并展望了两国在科学技术领域进一步合作的前景。此次访问还包括中国驻澳大利亚大使馆科技事务公使衔参赞王凌先生，以及澳大利亚工业、科学与资源部的代表。10月澳国立将在堪培拉校园迎来中国23所高校的校长团一行。</td>
+                                              </tr>
+                                              <!--//Body Copy-->
+
+                                            </tbody></table>
+
+                                          </td>
+
+                                          <!--#### //Body copy ####-->
+                                        </tr>
+                                      </tbody></table>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td width="100%" valign="top" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; padding-bottom: 40px;">
+                                      <table width="100%" valign="top" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-padding-alt: 0; mso-cellspacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; border-collapse: collapse;">
+                                        <tbody><tr>
+
+                                          <!--#### Icon ####-->
+                                          <td class="fullWidthBelow600 v-infographic" width="131" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-size: 0;">
+
+                                            <table width="90" height="90" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-padding-alt: 0; mso-cellspacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; border-collapse: collapse;">
+                                              <tbody><tr>
+                                                <td align="center" style="text-size-adjust: 100%; border-radius: 50%; background-size: cover; background-position: center center; background-repeat: no-repeat; background-image: url(&quot;https://files.outfit.io/media_library_items/276719/white-bg.png&quot;);" data-bc-hook="block-icon">
+
+                                                    <img valign="center" src="https://outfit-v2-exports-production.s3-accelerate.amazonaws.com/exports/attachments/040/639/820/original/_Infographic_%28Vertical%29_180x180_Icon.png?1727353526" height="90" width="90" data-image="https://files.outfit.io/media_library_items/625732/16441727269656_.pic.jpg" style="display: block; padding: 0; border: 0px;">
+                                                    
+
+                                                </td>
+                                              </tr>
+                                            </tbody></table>
+
+                                          </td>
+                                          <!--#### //Icon ####-->
+
+                                          <!--#### Body copy ####-->
+                                          <!-- DTB-6839 
+                                          <td class="fullWidthBelow600 bodyCopy"
+                                              valign="top" width="344"
+                                              style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-family: 'Public Sans', Arial, sans-serif;"
+                                              data-max-height="157">-->
+                                          <td class="fullWidthBelow600 bodyCopy" valign="top" width="344" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-family: 'Public Sans', Arial, sans-serif;">
+
+                                            <table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-padding-alt: 0; mso-cellspacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; border-collapse: collapse;">
+
+                                              <!--Heading-->
+                                              <tbody><tr>
+                                                <td data-bc-hook="block-text" width="100%" valign="top" style="text-size-adjust: 100%; font-family: &quot;Public Sans&quot;, Arial, sans-serif; font-size: 28.8px; padding-bottom: 10px; color: rgb(15, 15, 15);">
+                                                  <span style="font-size: 28.8px; line-height: 34.56px;">中国中心作为参展高校之一，于 9 月 12 日至 16 日作为澳大利亚国家展团代表于北京出席2024服贸会</span>
+                                                </td>
+                                              </tr>
+                                              <!-- End Heading-->
+
+                                              <!--Body Copy-->
+                                              <tr>
+                                                <td data-bc-hook="block-text" width="100%" style="text-size-adjust: 100%; font-family: &quot;Public Sans&quot;, Arial, sans-serif; font-size: 13.9px; line-height: 21.54px; font-weight: 300; color: rgb(15, 15, 15);"><br>继7月25日“永不落幕服贸会”澳大利亚专题暨2024中国（北京）— &nbsp;澳大利亚绿色经济合作圆桌会成功举办之后，澳大利亚国立大学作为参展高校之一，中国中心于 9 月 12 日至 16 日作为澳大利亚国家展团代表于北京出席本届服贸会。<br><br>澳国立中国中心主任于楠楠女士出席澳大利亚展团开馆仪式并在澳大利亚教育研讨会上为与会嘉宾介绍ANU这所国立大学在净零未来这个主题下所作出的努力和取得的成果。🍃<br><br>服贸会全称中国国际服务贸易交易会，由中华人民共和国商务部和北京市人民政府共同主办，在各方的大力支持下，已成功举办十届。中国国家主席习近平高度评价服贸会是中国扩大开放、深化合作、引领创新的重要平台。</td>
+                                              </tr>
+                                              <!--//Body Copy-->
+
+                                            </tbody></table>
+
+                                          </td>
+
+                                          <!--#### //Body copy ####-->
+                                        </tr>
+                                      </tbody></table>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td width="100%" valign="top" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; padding-bottom: 40px;">
+                                      <table width="100%" valign="top" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-padding-alt: 0; mso-cellspacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; border-collapse: collapse;">
+                                        <tbody><tr>
+
+                                          <!--#### Icon ####-->
+                                          <td class="fullWidthBelow600 v-infographic" width="131" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-size: 0;">
+
+                                            <table width="90" height="90" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-padding-alt: 0; mso-cellspacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; border-collapse: collapse;">
+                                              <tbody><tr>
+                                                <td align="center" style="text-size-adjust: 100%; border-radius: 50%; background-size: cover; background-position: center center; background-repeat: no-repeat; background-image: url(&quot;https://files.outfit.io/media_library_items/276719/white-bg.png&quot;);" data-bc-hook="block-icon">
+
+                                                    <img valign="center" src="https://outfit-v2-exports-production.s3-accelerate.amazonaws.com/exports/attachments/040/639/821/original/_Infographic_%28Vertical%29_180x180_Icon.png?1727353527" height="90" width="90" data-image="https://files.outfit.io/media_library_items/625729/16421727269172_.pic_hd.jpg" style="display: block; padding: 0; border: 0px;">
+                                                    
+
+                                                </td>
+                                              </tr>
+                                            </tbody></table>
+
+                                          </td>
+                                          <!--#### //Icon ####-->
+
+                                          <!--#### Body copy ####-->
+                                          <!-- DTB-6839 
+                                          <td class="fullWidthBelow600 bodyCopy"
+                                              valign="top" width="344"
+                                              style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-family: 'Public Sans', Arial, sans-serif;"
+                                              data-max-height="157">-->
+                                          <td class="fullWidthBelow600 bodyCopy" valign="top" width="344" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-family: 'Public Sans', Arial, sans-serif;">
+
+                                            <table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-padding-alt: 0; mso-cellspacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; border-collapse: collapse;">
+
+                                              <!--Heading-->
+                                              <tbody><tr>
+                                                <td data-bc-hook="block-text" width="100%" valign="top" style="text-size-adjust: 100%; font-family: &quot;Public Sans&quot;, Arial, sans-serif; font-size: 28.8px; padding-bottom: 10px; color: rgb(15, 15, 15);">
+                                                  <span style="font-size: 28.8px; line-height: 34.56px;">EiM领导团赴澳访问澳国立</span>
+                                                </td>
+                                              </tr>
+                                              <!-- End Heading-->
+
+                                              <!--Body Copy-->
+                                              <tr>
+                                                <td data-bc-hook="block-text" width="100%" style="text-size-adjust: 100%; font-family: &quot;Public Sans&quot;, Arial, sans-serif; font-size: 13.9px; line-height: 21.54px; font-weight: 300; color: rgb(15, 15, 15);"><br>今年八月，屹珈国际教育集团全球事务与校友关系总监Lucien Giordano先生与北京德威英国国际学校教育科技与创新总监Yosef Karasik先生一同访问了澳大利亚国立大学（ANU）。此行的重点是探讨并推进双方合作的创新教育项目——<a style="color: #0e0f0f;" href="https://mp.weixin.qq.com/s/fuPaNS6kEK2e4nwtGoHiSA"><strong><span class="tinymce_style--dark" style="color: #0f0f0f; font-size: 13.9px; line-height: 21.54px;">黑客星球（PlanetHack）</span></strong></a>，并与ANU的七大院系代表深入交流，为未来合作奠定了坚实基础。<br><br>作为澳大利亚国立大学在K12学段的战略教育合作伙伴，EiM在全球七个国家运营16所学校，其中5所位于中国的主要城市，其他分布在英国、瑞士、新加坡、印度尼西亚、韩国和泰国。这一合作致力于推动国际教育领域的创新与发展，特别是在学生高等教育阶段的衔接上，创造了更多的机会。<br><br>此次会晤进一步彰显了ANU与EiM在教育创新方面的共同愿景。这一战略合作致力于推动教育模式的革新，使全球学生能够更好地适应未来社会的挑战。</td>
+                                              </tr>
+                                              <!--//Body Copy-->
+
+                                            </tbody></table>
+
+                                          </td>
+
+                                          <!--#### //Body copy ####-->
+                                        </tr>
+                                      </tbody></table>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td width="100%" valign="top" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; padding-bottom: 40px;">
+                                      <table width="100%" valign="top" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-padding-alt: 0; mso-cellspacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; border-collapse: collapse;">
+                                        <tbody><tr>
+
+                                          <!--#### Icon ####-->
+                                          <td class="fullWidthBelow600 v-infographic" width="131" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-size: 0;">
+
+                                            <table width="90" height="90" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-padding-alt: 0; mso-cellspacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; border-collapse: collapse;">
+                                              <tbody><tr>
+                                                <td align="center" style="text-size-adjust: 100%; border-radius: 50%; background-size: cover; background-position: center center; background-repeat: no-repeat; background-image: url(&quot;https://files.outfit.io/media_library_items/276719/white-bg.png&quot;);" data-bc-hook="block-icon">
+
+                                                    <img valign="center" src="https://outfit-v2-exports-production.s3-accelerate.amazonaws.com/exports/attachments/040/639/822/original/_Infographic_%28Vertical%29_180x180_Icon.png?1727353586" height="90" width="90" data-image="https://files.outfit.io/media_library_items/625959/16551727342465_.pic.jpg" style="display: block; padding: 0; border: 0px;">
+                                                    
+
+                                                </td>
+                                              </tr>
+                                            </tbody></table>
+
+                                          </td>
+                                          <!--#### //Icon ####-->
+
+                                          <!--#### Body copy ####-->
+                                          <!-- DTB-6839 
+                                          <td class="fullWidthBelow600 bodyCopy"
+                                              valign="top" width="344"
+                                              style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-family: 'Public Sans', Arial, sans-serif;"
+                                              data-max-height="157">-->
+                                          <td class="fullWidthBelow600 bodyCopy" valign="top" width="344" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-family: 'Public Sans', Arial, sans-serif;">
+
+                                            <table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-padding-alt: 0; mso-cellspacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; border-collapse: collapse;">
+
+                                              <!--Heading-->
+                                              <tbody><tr>
+                                                <td data-bc-hook="block-text" width="100%" valign="top" style="text-size-adjust: 100%; font-family: &quot;Public Sans&quot;, Arial, sans-serif; font-size: 28.8px; padding-bottom: 10px; color: rgb(15, 15, 15);">
+                                                  <span style="font-size: 28.8px; line-height: 34.56px;">ANU年度最大规模学生就业系列活动顺利收官</span>
+                                                </td>
+                                              </tr>
+                                              <!-- End Heading-->
+
+                                              <!--Body Copy-->
+                                              <tr>
+                                                <td data-bc-hook="block-text" width="100%" style="text-size-adjust: 100%; font-family: &quot;Public Sans&quot;, Arial, sans-serif; font-size: 13.9px; line-height: 21.54px; font-weight: 300; color: rgb(15, 15, 15);"><br>由澳国立中国中心和大学职业与就业指导中心合作举办的年度规模最大就业活动 <a style="color: #0e0f0f;" href="https://mp.weixin.qq.com/s/3QtXr_FWs0jKydokC7CDhw">" International Careers in Focus "</a>， 于9 月 24-26 日正式启动。本次为期三天的活动，澳国立学子们将直接与<strong><span class="tinymce_style--dark" style="color: #0f0f0f; font-size: 13.9px; line-height: 21.54px;">金融、商业、STEM、医疗保健、教育、新能源</span></strong>等领域的顶级公司或机构建立联系。<br><br>本次活动综合学生和企业的需求，将分为线上和线下两种形式，内容涵盖公司介绍、招聘信息分享、现场/线上答疑、学校就业指导部门和中国中心贴心定制的求职辅导等等。部分参与企业名称：<br><br>
+<ul>
+<li><span class="tinymce_style--dark" style="color: #0f0f0f; font-size: 13.9px; line-height: 21.54px;">BOE Tech Group（京东方）</span></li>
+<li><span class="tinymce_style--dark" style="color: #0f0f0f; font-size: 13.9px; line-height: 21.54px;">ByteDance（字节跳动）</span></li>
+<li><span class="tinymce_style--dark" style="color: #0f0f0f; font-size: 13.9px; line-height: 21.54px;">Contemporary Amperex Technology (CATL)（宁德时代）</span></li>
+<li><span class="tinymce_style--dark" style="color: #0f0f0f; font-size: 13.9px; line-height: 21.54px;">KPMG China（毕马威会计师事务所）</span></li>
+<li><span class="tinymce_style--dark" style="color: #0f0f0f; font-size: 13.9px; line-height: 21.54px;">Meituan（美团）</span></li>
+<li><span class="tinymce_style--dark" style="color: #0f0f0f; font-size: 13.9px; line-height: 21.54px;">miHoYo （米哈游）</span></li>
+<li><span class="tinymce_style--dark" style="color: #0f0f0f; font-size: 13.9px; line-height: 21.54px;">NIO （蔚来）</span></li>
+<li><span class="tinymce_style--dark" style="color: #0f0f0f; font-size: 13.9px; line-height: 21.54px;">…..</span></li>
+</ul>
+<br>此次活动有近3000名学生报名参与，中国中心致力为每一位怀揣梦想的澳国立中国学子提供‍‍多元化、全方位的职业探索平台。</td>
+                                              </tr>
+                                              <!--//Body Copy-->
+
+                                            </tbody></table>
+
+                                          </td>
+
+                                          <!--#### //Body copy ####-->
+                                        </tr>
+                                      </tbody></table>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td width="100%" valign="top" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; padding-bottom: 40px;">
+                                      <table width="100%" valign="top" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-padding-alt: 0; mso-cellspacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; border-collapse: collapse;">
+                                        <tbody><tr>
+
+                                          <!--#### Icon ####-->
+                                          <td class="fullWidthBelow600 v-infographic" width="131" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-size: 0;">
+
+                                            <table width="90" height="90" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-padding-alt: 0; mso-cellspacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; border-collapse: collapse;">
+                                              <tbody><tr>
+                                                <td align="center" style="text-size-adjust: 100%; border-radius: 50%; background-size: cover; background-position: center center; background-repeat: no-repeat; background-image: url(&quot;https://files.outfit.io/media_library_items/276719/white-bg.png&quot;);" data-bc-hook="block-icon">
+
+                                                    <img valign="center" src="https://outfit-v2-exports-production.s3-accelerate.amazonaws.com/exports/attachments/040/639/833/original/_Infographic_%28Vertical%29_180x180_Icon.png?1727353587" height="90" width="90" data-image="https://files.outfit.io/media_library_items/625733/16451727269809_.pic.jpg" style="display: block; padding: 0; border: 0px;">
+                                                    
+
+                                                </td>
+                                              </tr>
+                                            </tbody></table>
+
+                                          </td>
+                                          <!--#### //Icon ####-->
+
+                                          <!--#### Body copy ####-->
+                                          <!-- DTB-6839 
+                                          <td class="fullWidthBelow600 bodyCopy"
+                                              valign="top" width="344"
+                                              style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-family: 'Public Sans', Arial, sans-serif;"
+                                              data-max-height="157">-->
+                                          <td class="fullWidthBelow600 bodyCopy" valign="top" width="344" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-family: 'Public Sans', Arial, sans-serif;">
+
+                                            <table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-padding-alt: 0; mso-cellspacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; border-collapse: collapse;">
+
+                                              <!--Heading-->
+                                              <tbody><tr>
+                                                <td data-bc-hook="block-text" width="100%" valign="top" style="text-size-adjust: 100%; font-family: &quot;Public Sans&quot;, Arial, sans-serif; font-size: 28.8px; padding-bottom: 10px; color: rgb(15, 15, 15);">
+                                                  <span style="font-size: 28.8px; line-height: 34.56px;">中国中心积极推动中澳教育合作与交流</span>
+                                                </td>
+                                              </tr>
+                                              <!-- End Heading-->
+
+                                              <!--Body Copy-->
+                                              <tr>
+                                                <td data-bc-hook="block-text" width="100%" style="text-size-adjust: 100%; font-family: &quot;Public Sans&quot;, Arial, sans-serif; font-size: 13.9px; line-height: 21.54px; font-weight: 300; color: rgb(15, 15, 15);"><br>九月初，澳中基金会 National Foundation for Australia-China Relations (NFACR) 首席执行官Gary Cowan先生访问中国。 澳中基金会积极推动双边民间和政府层级交流，以期增进两国人民互相了解和合作，建立更加坚固合作伙伴关系。 中国中心主任于楠楠女士于受邀参与澳大利亚驻华大使吉思德先生在其官邸的招待会和由Gary先生主持的闭门早餐会，分享澳国立在推动双向交流上作出的成绩。<br><br>中国中心努力从大学角度在教育领域促进中澳关系、推动教育合作和双边文化交流。希望在未来为中澳关系的发展做出积极贡献，尤其是在加强双方教育合作和拓展国际交流领域的努力上，进一步推进相关项目与合作机会的发展。</td>
+                                              </tr>
+                                              <!--//Body Copy-->
+
+                                            </tbody></table>
+
+                                          </td>
+
+                                          <!--#### //Body copy ####-->
+                                        </tr>
+                                      </tbody></table>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td width="100%" valign="top" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; padding-bottom: 40px;">
+                                      <table width="100%" valign="top" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-padding-alt: 0; mso-cellspacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; border-collapse: collapse;">
+                                        <tbody><tr>
+
+                                          <!--#### Icon ####-->
+                                          <td class="fullWidthBelow600 v-infographic" width="131" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-size: 0;">
+
+                                            <table width="90" height="90" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-padding-alt: 0; mso-cellspacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; border-collapse: collapse;">
+                                              <tbody><tr>
+                                                <td align="center" style="text-size-adjust: 100%; border-radius: 50%; background-size: cover; background-position: center center; background-repeat: no-repeat; background-image: url(&quot;https://files.outfit.io/media_library_items/276719/white-bg.png&quot;);" data-bc-hook="block-icon">
+
+                                                    <img valign="center" src="https://outfit-v2-exports-production.s3-accelerate.amazonaws.com/exports/attachments/040/639/834/original/_Infographic_%28Vertical%29_180x180_Icon.png?1727353587" height="90" width="90" data-image="https://files.outfit.io/media_library_items/625734/16461727270036_.pic.jpg" style="display: block; padding: 0; border: 0px;">
+                                                    
+
+                                                </td>
+                                              </tr>
+                                            </tbody></table>
+
+                                          </td>
+                                          <!--#### //Icon ####-->
+
+                                          <!--#### Body copy ####-->
+                                          <!-- DTB-6839 
+                                          <td class="fullWidthBelow600 bodyCopy"
+                                              valign="top" width="344"
+                                              style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-family: 'Public Sans', Arial, sans-serif;"
+                                              data-max-height="157">-->
+                                          <td class="fullWidthBelow600 bodyCopy" valign="top" width="344" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-family: 'Public Sans', Arial, sans-serif;">
+
+                                            <table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-padding-alt: 0; mso-cellspacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; border-collapse: collapse;">
+
+                                              <!--Heading-->
+                                              <tbody><tr>
+                                                <td data-bc-hook="block-text" width="100%" valign="top" style="text-size-adjust: 100%; font-family: &quot;Public Sans&quot;, Arial, sans-serif; font-size: 28.8px; padding-bottom: 10px; color: rgb(15, 15, 15);">
+                                                  <span style="font-size: 28.8px; line-height: 34.56px;">暑期热点活动回顾，中国中心荣获多个奖项</span>
+                                                </td>
+                                              </tr>
+                                              <!-- End Heading-->
+
+                                              <!--Body Copy-->
+                                              <tr>
+                                                <td data-bc-hook="block-text" width="100%" style="text-size-adjust: 100%; font-family: &quot;Public Sans&quot;, Arial, sans-serif; font-size: 13.9px; line-height: 21.54px; font-weight: 300; color: rgb(15, 15, 15);">在刚刚过去的暑期中，中国中心的同事们受邀来到上海、宁波和苏州等多地，参与政府机构和企业主办的多场活动，将ANU的办学理念和大学的服务通过不同方式介绍给不同的人群。在活动中，她们代表澳大利亚国立大学中国中心领取多个奖项。参与活动如下：<br><br>
+<ul>
+<li>Australia-China Emerging Leaders Summit ACELS 17中澳青年领袖峰会</li>
+<li>上海市临港管委会与智联招聘共同举办的聚临港、筑未来- 2024年高校看临港系列活动</li>
+<li>上海市长宁区海外高校引才战略启动暨2024重点企业海外人才需求对接会</li>
+<li>2024宁波前湾新区-康龙化成第二届校企合作大会（澳国立有幸在此次大会中被授予了<span class="tinymce_style--dark" style="color: #0f0f0f; font-size: 13.9px; line-height: 21.54px;">“海外高校优秀校企合作奖”</span>）</li>
+<li>屏科技，AI未来--第十一届校企合作伙伴大会暨2024京东方校企合作论坛</li>
+</ul>
+<br><a style="color: #0e0f0f;" href="https://mp.weixin.qq.com/s/XkAZIDglOTHL92Kb0l8BZQ">&nbsp;🔗更多活动回顾请点击链接查看</a></td>
+                                              </tr>
+                                              <!--//Body Copy-->
+
+                                            </tbody></table>
+
+                                          </td>
+
+                                          <!--#### //Body copy ####-->
+                                        </tr>
+                                      </tbody></table>
+                                    </td>
+                                  </tr>
+                                </tbody></table>
+                              </td>
+                              <!--#### //layout table ####-->
+                            </tr>
+                            <!--#### //INFOGRAPHIC VERTICAL ####-->
+
+
+                          
+
+
+
+
+
+                          
+                          	
+                  
+                            
+
+                            <tr data-bc-hook="block" data-bc-block-type="primary" data-block-background-override="none" style="background: rgb(255, 255, 255);">
+                              <td style="padding: 0; padding: 0 !important;">
+                                <table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-padding-alt: 0; mso-cellspacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; border-collapse: collapse;">
+                                  <!--#### Heading ####-->
+                                   <tbody><tr>
+                                    <td width="100%" valign="top" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; padding-top: 40px; padding-bottom: 15px; padding-left: 40px; padding-right: 40px;">
+                                      <table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-padding-alt: 0; mso-cellspacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; border-collapse: collapse;">
+                                        <tbody><tr>
+                                          <td data-bc-hook="block-text" width="100%" valign="top" style="text-size-adjust: 100%; padding-bottom: 10px; font-family: &quot;Public Sans&quot;, Arial, sans-serif; font-size: 28.8px; color: rgb(15, 15, 15);">
+                                            <span style="font-size: 28.8px; line-height: 34.56px;">游历世界，步履不止｜澳国立全球交流项目<br><br>ANU Global Programs 🛫️</span>
+                                          </td>
+                                        </tr>
+                                      </tbody></table>
+                                    </td>
+                                  </tr>
+                                  <!--#### //Heading ####-->
+
+                                  <!--#### FEATURE IMAGE ####-->
+                                  <tr>  
+                                    <td class="feature-image-parent" width="100%" valign="top" height="400px" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; width: 100%; font-size: 0; padding: 0; padding: 0 !important; height:400px;">
+                                      <img class="feature-image" src="https://files.outfit.io/media_library_items/625465/15701727168903_.pic.jpg" width="600" height="400px" style="object-fit: cover; width: 100%; height: 400px">
+                                    </td> 
+                                  </tr>
+                                  <!--#### //FEATURE IMAGE ####-->
+
+                                  <!--#### Caption ####-->
+                                   <tr>
+                                    <td width="100%" valign="top" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; padding-top: 40px; padding-bottom: 15px; padding-left: 40px; padding-right: 40px;">
+                                      <table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-padding-alt: 0; mso-cellspacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; border-collapse: collapse;">
+                                        <tbody><tr>
+                                          <td data-bc-hook="block-text" width="100%" valign="top" style="text-size-adjust: 100%; padding-bottom: 23px; font-family: &quot;Public Sans&quot;, Arial, sans-serif; font-size: 13.9px; line-height: 22.24px; font-weight: 300; color: rgb(15, 15, 15);">作为一所全球性大学，澳大利亚国立大学（澳国立）不仅在全球范围内拥有极高的学术声誉，学校同时也拥有众多全球交流项目，不仅澳国立的学生有机会前往其他国家学习，而且其他院校的学生也可以申请在澳国立交换学习。<br><br>从短期课程项目到一个学期，甚至到长达一整年的海外交流学习，这些全球交流项目，不仅可以抵扣课程学分，而且学生能通过这些跨文化交流，提升自己的个人能力，拓宽视野，并进一步在毕业求职时脱颖而出。<br><br>
+<ul>
+<li><span class="tinymce_style--dark" style="color: #be830e; font-size: 13.9px; line-height: 22.24px;">长期交流项目：海外交流项目、亚洲学年（Year in Aisa）和 海外独立学习（Independent Learning Abroad）。</span></li>
+<li><span class="tinymce_style--dark" style="color: #be830e; font-size: 13.9px; line-height: 22.24px;">短期课程项目：PRIMO本科一年级学生海外学习项目、学院主导游学项目和 IARU全球交流项*。</span></li>
+</ul>
+<br>* 国际研究型大学联盟（IARU）的成员包括：澳大利亚国立大学、苏黎世联邦理工学院、新加坡国立大学、北京大学、加州大学伯克利分校、剑桥大学、开普敦大学、哥本哈根大学、牛津大学、东京大学和耶鲁大学。<br><span class="tinymce_style--dark" style="color: #be830e; font-size: 13.9px; line-height: 22.24px;"><br>讲座、辅导课、同伴互助、实地考察……学生将通过各种不同的学习方式，与全球最优秀的学生共同成长进步。因为每所大学所提供的课程都不尽相同，具体课程信息和申请要求，可<a style="color: #0e0f0f;" href="https://mp.weixin.qq.com/s/1WqjAkBIYN-dhZkiyVaOgw">点击链接</a>前往官网查看。</span></td>
+                                        </tr>
+                                      </tbody></table>
+                                    </td>
+                                  </tr>
+                                  <!--#### //caption ####-->
+                                </tbody></table>
+                              </td>
+                            </tr>
+
+                          
+
+
+
+
+
+                          
+                          	
+                  
+                            
+
+
+                          
+
+
+
+
+
+                          
+                          	
+                  
+                            
+
+
+                          
+                            <!--#### 2 COLUMN ARTICLE ####-->
+                            <tr data-bc-hook="block" data-bc-block-type="primary" data-block-background-override="none" style="background: rgb(245, 237, 222);">
+                              <td class="twoColumnArticle" width="100%" valign="top" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; padding-top: 57px; padding-bottom: 13px; padding-left: 40px; padding-right: 60px;">
+                                <table valign="top" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-padding-alt: 0; mso-cellspacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; border-collapse: collapse;">
+
+                                  <!--Block Heading-->
+                                  <tbody><tr>
+                                    <td data-bc-hook="block-text" width="100%" valign="top" style="text-size-adjust: 100%; font-family: &quot;Public Sans&quot;, Arial, sans-serif; font-size: 28.8px; padding-bottom: 30px; color: rgb(15, 15, 15);">
+                                      <span style="font-size: 28.8px; line-height: 34.56px;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;堪培拉校园动态</span>
+                                    </td>
+                                  </tr>
+                                  <!--End Block Heading-->
+
+                                  <tr>
+                                    <td width="100%" valign="top" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; padding-bottom: 46px;">
+                                      <table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-padding-alt: 0; mso-cellspacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; border-collapse: collapse;">
+                                        <tbody><tr>
+                                          <!--#### First Column ####-->
+                                          <td class="fullWidthBelow600" valign="top" width="240" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; vertical-align: top;">
+                                            <table valign="top" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-padding-alt: 0; mso-cellspacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; border-collapse: collapse;">
+                                              <!--#### Article 1 Image ####-->
+                                              <tbody><tr>
+                                                <td valign="top" width="240" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; padding-bottom: 21px;">
+                                                    <img src="https://files.outfit.io/media_library_items/625473/15841727172904_.pic.jpg" width="240" height="153" style="display: block; padding: 0; border: 0px;">
+                                                </td>
+                                              </tr>
+                                              
+                                              
+                                              <!--#### //Article 1 Image ####-->
+                                              <!--#### Article 1 Body Copy ####-->
+                                              <tr>
+                                                <td width="240" valign="top" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-family: 'Public Sans', Arial, sans-serif; font-size: 13.9px; line-height: 22.24px;">
+
+                                                  <table width="240" valign="top" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-padding-alt: 0; mso-cellspacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; border-collapse: collapse;">
+
+                                                    <!--Heading-->
+                                                    <tbody><tr>
+                                                      <td data-bc-hook="block-text" width="100%" valign="top" style="text-size-adjust: 100%; font-family: &quot;Public Sans&quot;, Arial, sans-serif; font-size: 28.8px; padding-bottom: 10px; color: rgb(15, 15, 15);">
+                                                        <div style="font-size: 100%; line-height: 120%;">2025年2月入学宿舍申请现已开放</div>
+                                                      </td>
+                                                    </tr>
+                                                    <!--//Heading-->
+
+                                                    <!--Body Copy-->
+                                                    <tr>  
+                                                      <td data-bc-hook="block-text" width="100%" valign="top" style="text-size-adjust: 100%; font-family: &quot;Public Sans&quot;, Arial, sans-serif; font-size: 13.9px; line-height: 22.24px; font-weight: 300; color: rgb(15, 15, 15);">
+                                                        <br>澳国立为学生提供了多样化的住宿选择，目前共有19栋学生公寓楼，费用为每周200-500多澳币不等，涵盖的宿舍类型包括包餐/不包餐、独卫/公共卫生间、单间/共享客厅等等，且各种必要的生活娱乐学习设施一应俱全。<br><br>如何申请：学生需前往学校的住宿服务门户网站注册登录并提交申请表。<br>👉 <a style="color: #0e0f0f;" href="https://anucomb.starrezhousing.com/StarRezPortalX">ANU Accommodation Portal</a><br><br>住宿保证☑️ ：<br>所有即将在2025年第1学期入学澳国立的本科生和研究生，并在 2024 年 12 月 20 日之前提交线上申请，澳国立都将保证为其提供住宿。<br><br><a style="color: #0e0f0f;" href="https://mp.weixin.qq.com/s/obIzUc1qkDUgkkKnUquQsA">更多宿舍信息请点击链接查看。</a>
+                                                      </td>
+                                                    </tr>
+                                                    <!--//Body Copy-->
+
+                                                  </tbody></table>
+                                                </td>
+                                              </tr>
+                                              <!--#### //Article 1 Body Copy ####-->
+                                            </tbody></table>
+                                          </td>
+                                          <!--#### //First Column ####-->
+                                          <!--#### Divider ####-->
+                                          <td class="fullWidthBelow600" width="20" valign="top" style="vertical-align: top;">
+                                            <table width="20" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-padding-alt: 0; mso-cellspacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; border-collapse: collapse;"></table>
+                                          </td>
+                                          <!--#### //Divider ####-->
+                                          <!--#### Second Column ####-->
+                                          <td class="fullWidthBelow600 mt25Below600" valign="top" width="240" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; vertical-align: top;">
+                                            <table width="100%" valign="top" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-padding-alt: 0; mso-cellspacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; border-collapse: collapse;">
+                                              <!--#### Article 2 Image ####-->
+                                              <tbody><tr>
+                                                <td width="240" valign="top" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; padding-bottom: 21px;">
+                                                    <img src="https://files.outfit.io/media_library_items/625474/15851727173799_.pic.jpg" width="240" height="153" style="display: block; padding: 0; border: 0px;">
+                                                </td>
+                                              </tr>
+                                              <!--#### //Article 2 Image ####-->
+                                              
+                                              
+                                              
+                                              <!--#### Article 2 Body Copy ####-->
+                                              <tr>
+                                                <td width="240" valign="top" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-family: 'Public Sans', Arial, sans-serif; font-size: 13.9px; line-height: 22.24px;">
+                                                  <table width="240" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-padding-alt: 0; mso-cellspacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; border-collapse: collapse;">
+                                                    <!--Heading-->
+                                                    <tbody><tr>
+                                                      <td data-bc-hook="block-text" width="100%" valign="top" style="text-size-adjust: 100%; font-family: &quot;Public Sans&quot;, Arial, sans-serif; font-size: 28.8px; padding-bottom: 10px; color: rgb(15, 15, 15);">
+                                                        <div style="font-size: 100%; line-height: 120%;">全球钢铁制造价值链脱碳研究博士学位开放申请，可申请奖学金</div>
+                                                      </td>
+                                                    </tr>
+                                                    <!--//Heading-->
+
+                                                    <!--Body Copy-->
+                                                    <tr>  
+                                                      <td data-bc-hook="block-text" width="100%" valign="top" style="text-size-adjust: 100%; font-family: &quot;Public Sans&quot;, Arial, sans-serif; font-size: 13.9px; line-height: 22.24px; font-weight: 300; color: rgb(15, 15, 15);">
+                                                        该学位关注全球钢铁制造价值链脱碳的新研究计划，尤其侧重澳大利亚与中国在该项研究上的联系。项目与亚太地区零碳能源 (Zero-Carbon Energy for the Asia-Pacific, ZCEAP)相关，同时也是“澳国立大挑战 ANU GRAND CHALLENGE" 项目之一，由Frank Jotzo教授和Jorrit Gosens博士领导，隶属于澳大利亚国立大学克劳福德公共政策学院气候与能源政策中心。<br><br>博士学者将专注于以下研究领域之一:<br><br>◎在中国和全球范围内实现脱碳钢铁生产的成本优化技术途径<br>◎ 澳大利亚和/或中国对脱碳炼钢的不同轨迹的地方经济影响<br>◎ 鼓励中国和全球加速向脱碳钢铁生产转型的政策选择及其可行性<br>◎ 脱碳炼钢的行业前景和障碍<br>◎ 博士学者寻求从事模型开发工作的地方，可以是一系列不同的模型类型，包括优化模型、CGE 模型、IAM 等。<br><br>🚩 申请请先联系Jorrit博士：jorrit.gosens@anu.edu.au。<a href="https://mp.weixin.qq.com/s/7b9cjcMB6UbSKrihkCiYDQ" style="color: rgb(14, 15, 15);">更多内容查看链接。</a>
+                                                      </td>
+                                                    </tr>
+                                                  </tbody></table>
+                                                </td>
+                                              </tr>
+                                              <!--#### //Article 2 Body Copy ####-->
+                                            </tbody></table>
+                                          </td>
+                                          <!--#### //Second Column ####-->
+                                        </tr>
+                                      </tbody></table>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td width="100%" valign="top" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; padding-bottom: 46px;">
+                                      <table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-padding-alt: 0; mso-cellspacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; border-collapse: collapse;">
+                                        <tbody><tr>
+                                          <!--#### First Column ####-->
+                                          <td class="fullWidthBelow600" valign="top" width="240" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; vertical-align: top;">
+                                            <table valign="top" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-padding-alt: 0; mso-cellspacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; border-collapse: collapse;">
+                                              <!--#### Article 1 Image ####-->
+                                              <tbody><tr>
+                                                <td valign="top" width="240" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; padding-bottom: 21px;">
+                                                    <img src="https://files.outfit.io/media_library_items/625475/15911727174652_.pic.jpg" width="240" height="153" style="display: block; padding: 0; border: 0px;">
+                                                </td>
+                                              </tr>
+                                              
+                                              
+                                              <!--#### //Article 1 Image ####-->
+                                              <!--#### Article 1 Body Copy ####-->
+                                              <tr>
+                                                <td width="240" valign="top" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-family: 'Public Sans', Arial, sans-serif; font-size: 13.9px; line-height: 22.24px;">
+
+                                                  <table width="240" valign="top" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-padding-alt: 0; mso-cellspacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; border-collapse: collapse;">
+
+                                                    <!--Heading-->
+                                                    <tbody><tr>
+                                                      <td data-bc-hook="block-text" width="100%" valign="top" style="text-size-adjust: 100%; font-family: &quot;Public Sans&quot;, Arial, sans-serif; font-size: 28.8px; padding-bottom: 10px; color: rgb(15, 15, 15);">
+                                                        <div style="font-size: 100%; line-height: 120%;">国际学生新生入学人数上限公布</div>
+                                                      </td>
+                                                    </tr>
+                                                    <!--//Heading-->
+
+                                                    <!--Body Copy-->
+                                                    <tr>  
+                                                      <td data-bc-hook="block-text" width="100%" valign="top" style="text-size-adjust: 100%; font-family: &quot;Public Sans&quot;, Arial, sans-serif; font-size: 13.9px; line-height: 22.24px; font-weight: 300; color: rgb(15, 15, 15);">
+                                                        <br>2024年8月27日，澳大利亚政府宣布，将从2025年起实施一项名为国际学生<a style="color: #0e0f0f;" href="https://mp.weixin.qq.com/s/I-Wvd-uIM5ZGV_d2E2i2_Q">“国家规划水平”</a>（National Planning Level, 英文缩写：NPL）的限额政策，从而更有效地规划每年国际学生人数的增长。<br><br>新的NPL国际新生入学人数上限将有助于澳大利亚的教育与培训院校更好地应对和管理国际学生人数的增长，继续提供高质量的课程和全面的学生支持服务，并帮助学生做好充分的择业和就业准备。<br><br>澳大利亚一如既往地欢迎来自世界各地的学生。2025年，澳大利亚大学的国际新生入学人数将被设定在与2023年相近的水平。🔢 NPL国际新生入学人数限额将从2025年1月1日起实施。2025年国际学生新生总人数的上限为27万人。<br><br>文章出处：<a href="https://mp.weixin.qq.com/s/I-Wvd-uIM5ZGV_d2E2i2_Q" style="color: rgb(14, 15, 15);">澳大利亚政府教育资讯</a>
+                                                      </td>
+                                                    </tr>
+                                                    <!--//Body Copy-->
+
+                                                  </tbody></table>
+                                                </td>
+                                              </tr>
+                                              <!--#### //Article 1 Body Copy ####-->
+                                            </tbody></table>
+                                          </td>
+                                          <!--#### //First Column ####-->
+                                          <!--#### Divider ####-->
+                                          <td class="fullWidthBelow600" width="20" valign="top" style="vertical-align: top;">
+                                            <table width="20" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-padding-alt: 0; mso-cellspacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; border-collapse: collapse;"></table>
+                                          </td>
+                                          <!--#### //Divider ####-->
+                                          <!--#### Second Column ####-->
+                                          <td class="fullWidthBelow600 mt25Below600" valign="top" width="240" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; vertical-align: top;">
+                                            <table width="100%" valign="top" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-padding-alt: 0; mso-cellspacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; border-collapse: collapse;">
+                                              <!--#### Article 2 Image ####-->
+                                              <tbody><tr>
+                                                <td width="240" valign="top" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; padding-bottom: 21px;">
+                                                    <img src="https://files.outfit.io/media_library_items/625476/15931727174805_.pic.jpg" width="240" height="153" style="display: block; padding: 0; border: 0px;">
+                                                </td>
+                                              </tr>
+                                              <!--#### //Article 2 Image ####-->
+                                              
+                                              
+                                              
+                                              <!--#### Article 2 Body Copy ####-->
+                                              <tr>
+                                                <td width="240" valign="top" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-family: 'Public Sans', Arial, sans-serif; font-size: 13.9px; line-height: 22.24px;">
+                                                  <table width="240" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-padding-alt: 0; mso-cellspacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; border-collapse: collapse;">
+                                                    <!--Heading-->
+                                                    <tbody><tr>
+                                                      <td data-bc-hook="block-text" width="100%" valign="top" style="text-size-adjust: 100%; font-family: &quot;Public Sans&quot;, Arial, sans-serif; font-size: 28.8px; padding-bottom: 10px; color: rgb(15, 15, 15);">
+                                                        <div style="font-size: 100%; line-height: 120%;">澳国立校监毕晓普阁下获邀参加澳中高级别对话第八次会议</div>
+                                                      </td>
+                                                    </tr>
+                                                    <!--//Heading-->
+
+                                                    <!--Body Copy-->
+                                                    <tr>  
+                                                      <td data-bc-hook="block-text" width="100%" valign="top" style="text-size-adjust: 100%; font-family: &quot;Public Sans&quot;, Arial, sans-serif; font-size: 13.9px; line-height: 22.24px; font-weight: 300; color: rgb(15, 15, 15);">
+                                                        澳大利亚国立大学校监毕晓普阁下(上图右四）于 2024 年 8 月 16 日获邀参加于阿德莱德举行的，由中国人民外交学会和澳大利亚澳中基金会联合举办的中澳高级别对话第八次会议。&nbsp;<br><br>毕晓普阁下（The Hon Julie Bishop MP） 于 2013 年就任澳大利亚第 38 任外交部长，也是澳大利亚首位女性外交部长，并于 2020 年起担任澳大利亚国立大学校监职务，为ANU第一位女性校监。<br><br>在本次活动中，现任澳大利亚外交部长黄英贤为本次活动开幕致辞。澳大利亚驻华大使吉思德阁下以及多位澳大利亚政府官员共同出席。&nbsp;<br><br>中方代表团执行团长、外交学会会长王超、中国驻澳大利亚大使肖千，原中央外办常务副主任裘援平，外交学会理事会顾问、外交部前副部长崔天凯等18名代表出席会议。<br><br><a style="color: #0e0f0f;" href="https://mp.weixin.qq.com/s/5nQMgJZPKBuEnWWTmzA4Ow">点击链接回顾</a>
+                                                      </td>
+                                                    </tr>
+                                                  </tbody></table>
+                                                </td>
+                                              </tr>
+                                              <!--#### //Article 2 Body Copy ####-->
+                                            </tbody></table>
+                                          </td>
+                                          <!--#### //Second Column ####-->
+                                        </tr>
+                                      </tbody></table>
+                                    </td>
+                                  </tr>
+                                </tbody></table>
+                              </td>
+                            </tr>
+                            <!--#### //2 COLUMN ARTICLE ####-->
+
+
+
+
+
+                          
+                          	
+                  
+                            
+
+
+                          
+
+
+
+
+
+                          
+                          	
+                  
+                            
+
+
+                          
+
+                            <!--#### INFOGRAPHIC HORIZONTAL ####-->
+                            <tr data-bc-hook="block" data-bc-block-type="secondary" data-block-background-override="none" style="background: rgb(255, 255, 255);">
+                              <td width="100%" valign="top" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; padding-top: 54px; padding-bottom: 72px; padding-left: 36px; padding-right: 36px;">
+                                 <table class="infographic-table" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-padding-alt: 0; mso-cellspacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; table-layout: fixed; border-collapse: collapse;">                               	 
+                                  <!--Block Heading-->
+                                  <tbody><tr>
+                                    <td class="infographic-header" data-bc-hook="block-text" width="100%" valign="top" style="text-size-adjust: 100%; font-family: &quot;Public Sans&quot;, Arial, sans-serif; font-size: 28.8px; padding-bottom: 30px; text-align: center; color: rgb(15, 15, 15);">
+                                      <span style="font-size: 28.8px; line-height: 34.56px;">ANU当地动态 - 中国</span>
+                                    </td>
+                                  </tr>
+                                  <!-- End Block Heading-->                                  
+                                </tbody></table>
+                                
+                                <table class="infographic-table" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-padding-alt: 0; mso-cellspacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; table-layout: fixed; border-collapse: collapse;">
+                                  <tbody><tr style="text-align: center;">
+                                    <!-- CHANGED THE WIDTH HERE FROM 33% to 100% -->
+                                    <td class="fullWidthBelow600" valign="top" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; padding-left: 10px; padding-right: 10px; text-align: center;">
+                                      <table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-padding-alt: 0; mso-cellspacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; border-collapse: collapse;">
+                                        <!--#### Icon ####-->
+                                        <tbody><tr>
+                                          <td valign="top" align="center" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; padding-bottom: 20px;">
+                                            <table width="90" height="90" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-padding-alt: 0; mso-cellspacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; border-collapse: collapse;">
+                                              <tbody><tr>
+                                                <td background="https://files.outfit.io/media_library_items/276718/beige-icon-bg.png" align="center" style="text-size-adjust: 100%; background-size: cover; background-position: center center; background-repeat: no-repeat; background-image: url(&quot;https://files.outfit.io/media_library_items/276719/white-bg.png&quot;);" data-bc-hook="block-icon">
+                                                    <img src="https://outfit-v2-exports-production.s3-accelerate.amazonaws.com/exports/attachments/040/639/835/original/_Infographic_%28Horizontal%29_180x180_Icon.png?1727353588" height="90" width="90" style="display: block; padding: 0; border: 0px;" data-image="https://files.outfit.io/media_library_items/625735/16471727270532_.pic_hd.jpg">
+                                                </td>
+                                              </tr>
+                                            </tbody></table>
+                                          </td>
+                                        </tr>
+                                        <!--#### //Icon ####-->
+
+                                        <!--#### Body Copy ####-->
+                                        <tr>
+                                          <td valign="top" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;">
+                                            <table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-padding-alt: 0; mso-cellspacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; border-collapse: collapse;">
+
+                                              <!--Heading-->
+                                              <tbody><tr>
+                                                <td data-bc-hook="block-text" valign="top" style="text-size-adjust: 100%; text-align: center; font-family: &quot;Public Sans&quot;, Arial, sans-serif; font-size: 28.8px; padding-bottom: 10px; color: rgb(15, 15, 15);">
+                                                  <div style="font-size: 100%; line-height: 120%;">“澳”立职场2024年暑期实习项目</div>
+                                                </td>
+                                              </tr>
+                                              <!--//Heading-->
+
+                                              <!--Body Copy-->
+                                              <tr>
+                                                <td data-bc-hook="block-text" valign="top" style="text-size-adjust: 100%; text-align: center; font-family: &quot;Public Sans&quot;, Arial, sans-serif; font-size: 13.9px; line-height: 22.24px; font-weight: 300; color: rgb(15, 15, 15);">
+                                                  <span class="tinymce_style--dark" style="color: #be830e; font-size: 13.9px; line-height: 22.24px;"><strong>「澳洲会计师公会专场」</strong></span><br><br>2024年7月澳国立本年度第二学期开始，预计大学假期将于11月中下旬正式开始。如何合理的利用假期时间，充实就业技能，了解就业市场。<span class="tinymce_style--dark" style="color: #be830e; font-size: 13.9px; line-height: 22.24px;">继2021年我们与澳洲会计师公会（CPA Australia）成功合作，并推出涵盖实习（Internship）、导师指导（Mentorship）、奖学金（Scholarship）和英才计划（Apprenticeship）在内的四艘直通职场的SHIPs项目。</span><br><br>2024年澳洲暑期，我们将再次携手澳洲会计师公会，共同打造专为澳国立学生定制的实习项目。该项目将涵盖<span class="tinymce_style--dark" style="color: #be830e; font-size: 13.9px; line-height: 22.24px;">会计、银行、金融等领域，还将扩展到新能源、高新技术、电子信息、高端制造业等</span>其他行业，多城市多行业的选择确保澳国立的学生能找到最适合自己的实习岗位。
+                                                </td>
+                                              </tr>
+                                              <!--//Body Copy-->
+
+                                            </tbody></table>
+                                          </td>
+                                        </tr>
+                                        <!--#### //Body Copy ####-->
+                                      </tbody></table>
+                                    </td>
+                                    <!-- CHANGED THE WIDTH HERE FROM 33% to 100% -->
+                                    <td class="fullWidthBelow600" valign="top" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; padding-left: 10px; padding-right: 10px; text-align: center;">
+                                      <table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-padding-alt: 0; mso-cellspacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; border-collapse: collapse;">
+                                        <!--#### Icon ####-->
+                                        <tbody><tr>
+                                          <td valign="top" align="center" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; padding-bottom: 20px;">
+                                            <table width="90" height="90" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-padding-alt: 0; mso-cellspacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; border-collapse: collapse;">
+                                              <tbody><tr>
+                                                <td background="https://files.outfit.io/media_library_items/276718/beige-icon-bg.png" align="center" style="text-size-adjust: 100%; background-size: cover; background-position: center center; background-repeat: no-repeat; background-image: url(&quot;https://files.outfit.io/media_library_items/276719/white-bg.png&quot;);" data-bc-hook="block-icon">
+                                                    <img src="https://outfit-v2-exports-production.s3-accelerate.amazonaws.com/exports/attachments/040/639/836/original/_Infographic_%28Horizontal%29_180x180_Icon.png?1727353588" height="90" width="90" style="display: block; padding: 0; border: 0px;" data-image="https://files.outfit.io/media_library_items/625736/16481727270534_.pic.jpg">
+                                                </td>
+                                              </tr>
+                                            </tbody></table>
+                                          </td>
+                                        </tr>
+                                        <!--#### //Icon ####-->
+
+                                        <!--#### Body Copy ####-->
+                                        <tr>
+                                          <td valign="top" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;">
+                                            <table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-padding-alt: 0; mso-cellspacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; border-collapse: collapse;">
+
+                                              <!--Heading-->
+                                              <tbody><tr>
+                                                <td data-bc-hook="block-text" valign="top" style="text-size-adjust: 100%; text-align: center; font-family: &quot;Public Sans&quot;, Arial, sans-serif; font-size: 28.8px; padding-bottom: 10px; color: rgb(15, 15, 15);">
+                                                  <div style="font-size: 100%; line-height: 120%;">“澳”立宇宙南半球天文展览亮相国际高中</div>
+                                                </td>
+                                              </tr>
+                                              <!--//Heading-->
+
+                                              <!--Body Copy-->
+                                              <tr>
+                                                <td data-bc-hook="block-text" valign="top" style="text-size-adjust: 100%; text-align: center; font-family: &quot;Public Sans&quot;, Arial, sans-serif; font-size: 13.9px; line-height: 22.24px; font-weight: 300; color: rgb(15, 15, 15);">
+                                                  <strong><span class="tinymce_style--dark" style="color: #be830e; font-size: 13.9px; line-height: 22.24px;">「Starry Starry Night: ANU's Southern Hemisphere Astronomy Exhibition」</span></strong><br><br>“澳”立宇宙南半球天文展览自上海展出后，受到了来自教育界、文化界、学生及各方的肯定。展览不仅有幸相继在澳大利亚驻沪总领事馆、澳大利亚驻华大使馆展出，自2023年12月起，还扩展至中国国际高中进行巡回展览，旨在向更年轻的群体深入传播南半球的天文学和科学知识。<br><br>目前，“澳”立宇宙已在澳大利亚国立大学的国内友好合作伙伴国际高中陆续开展，包括<span class="tinymce_style--light" style="font-size: 13.9px; line-height: 22.24px;">WLSA Shanghai Academy、上海德威外籍人员子女学校（浦东）及上海浦东新区民办惠立学校</span>。感谢各校学生对本展览的热情与支持。<br><br>如果您所在的国际高中对举办此类展览感兴趣，敬请联络我们进行报名。我们期待与更多国际学校合作，共同推广科学教育。<br><br><a href="https://mp.weixin.qq.com/s/i-KbuSLxfN--GAreZQxHjQ" style="color: rgb(14, 15, 15);"><span class="tinymce_style--dark" style="color: #be830e; font-size: 13.9px; line-height: 22.24px;"><span style="color: #be830e; font-size: 14px; line-height: 22.24px;">更多有关“澳”立宇宙展览的活动回顾</span></span></a><span class="tinymce_style--dark" style="color: #be830e; font-size: 14px; line-height: 22.24px;"><br></span>
+                                                </td>
+                                              </tr>
+                                              <!--//Body Copy-->
+
+                                            </tbody></table>
+                                          </td>
+                                        </tr>
+                                        <!--#### //Body Copy ####-->
+                                      </tbody></table>
+                                    </td>
+                                    <!-- CHANGED THE WIDTH HERE FROM 33% to 100% -->
+                                    <td class="fullWidthBelow600" valign="top" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; padding-left: 10px; padding-right: 10px; text-align: center;">
+                                      <table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-padding-alt: 0; mso-cellspacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; border-collapse: collapse;">
+                                        <!--#### Icon ####-->
+                                        <tbody><tr>
+                                          <td valign="top" align="center" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; padding-bottom: 20px;">
+                                            <table width="90" height="90" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-padding-alt: 0; mso-cellspacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; border-collapse: collapse;">
+                                              <tbody><tr>
+                                                <td background="https://files.outfit.io/media_library_items/276718/beige-icon-bg.png" align="center" style="text-size-adjust: 100%; background-size: cover; background-position: center center; background-repeat: no-repeat; background-image: url(&quot;https://files.outfit.io/media_library_items/276719/white-bg.png&quot;);" data-bc-hook="block-icon">
+                                                    <img src="https://outfit-v2-exports-production.s3-accelerate.amazonaws.com/exports/attachments/040/639/837/original/_Infographic_%28Horizontal%29_180x180_Icon.png?1727353589" height="90" width="90" style="display: block; padding: 0; border: 0px;" data-image="https://files.outfit.io/media_library_items/625737/16491727270535_.pic.jpg">
+                                                </td>
+                                              </tr>
+                                            </tbody></table>
+                                          </td>
+                                        </tr>
+                                        <!--#### //Icon ####-->
+
+                                        <!--#### Body Copy ####-->
+                                        <tr>
+                                          <td valign="top" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;">
+                                            <table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-padding-alt: 0; mso-cellspacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; border-collapse: collapse;">
+
+                                              <!--Heading-->
+                                              <tbody><tr>
+                                                <td data-bc-hook="block-text" valign="top" style="text-size-adjust: 100%; text-align: center; font-family: &quot;Public Sans&quot;, Arial, sans-serif; font-size: 28.8px; padding-bottom: 10px; color: rgb(15, 15, 15);">
+                                                  <div style="font-size: 100%; line-height: 120%;">ANU Academic Talks 2024 重启</div>
+                                                </td>
+                                              </tr>
+                                              <!--//Heading-->
+
+                                              <!--Body Copy-->
+                                              <tr>
+                                                <td data-bc-hook="block-text" valign="top" style="text-size-adjust: 100%; text-align: center; font-family: &quot;Public Sans&quot;, Arial, sans-serif; font-size: 13.9px; line-height: 22.24px; font-weight: 300; color: rgb(15, 15, 15);">
+                                                  <strong><span class="tinymce_style--dark" style="color: #be830e; font-size: 13.9px; line-height: 22.24px;">【亚太学院 - “变革中的中国，变革中的世界】<br></span></strong><br>2024年学术讲堂系列将再次启动。 在接下来的六个月时间，澳国立的七个学院将与大家分享前沿研究成果，探讨国际重大议题，让大家更接近科研的世界，进一步了解ANU的学术成果。希望通过学术讲堂帮助即将赴澳读书的学子选择最适合的专业，确定未来的发展方向，引导他们在学术道路上走得更远。<br><br>首期讲座澳国立中国中心将携手澳国立七大学院之一亚太学院（ANU College of Asia and the Pacific)共同呈现。<a style="color: #0e0f0f;" href="https://mp.weixin.qq.com/s/e5bhijDVf3OSg5-0hHEnZA">来自澳国立Coral Bell 亚太事务研究院战略与国防研究中心的 Amy King 副教授为大家带来了一场深入探讨中国与世界变革的议题。</a><br><br><br>如何报名第二期学术讲堂？👇<br><br>第二期学术讲堂将由澳大利亚国立大学法学院呈现，我们将讨论一个极具挑战性和现实意义的话题：“为什么我们应该相信法院能公正裁决？”。<a style="color: #0e0f0f;" href="https://forms.office.com/Pages/ResponsePage.aspx?id=XHJ941yrJEaa5fBTPkhkN6OWQeVmQs1PtQUUKs1iSPNUM0xIMDRTT1YzSVdLNlNPVVdNUEhTN082Ry4u">📖 <span class="tinymce_style--dark" style="color: #be830e; font-size: 13.9px; line-height: 22.24px;">点击链接报名</span></a>
+                                                </td>
+                                              </tr>
+                                              <!--//Body Copy-->
+
+                                            </tbody></table>
+                                          </td>
+                                        </tr>
+                                        <!--#### //Body Copy ####-->
+                                      </tbody></table>
+                                    </td>
+                                  </tr>
+                                </tbody></table>
+                              </td>
+                            </tr>
+                            <!--#### //INFOGRAPHIC HORIZONTAL ####-->
+
+
+
+
+                          
+                          	
+                  
+                            
+
+
+                          
+
+
+                            <!--#### ROW ARTICLE ####-->
+                            <tr data-bc-hook="block" data-bc-block-type="primary" data-block-background-override="none" style="background: rgb(245, 237, 222);">
+                              <td width="100%" valign="top" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; padding-top: 51px; padding-bottom: 19px; padding-left: 41px; padding-right: 41px;">
+                                <table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-padding-alt: 0; mso-cellspacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; border-collapse: collapse;">
+
+                                  <!--Block Heading-->
+                                  <tbody><tr>
+                                    <td data-bc-hook="block-text" width="100%" valign="top" style="text-size-adjust: 100%; font-family: &quot;Public Sans&quot;, Arial, sans-serif; font-size: 28.8px; padding-bottom: 30px; color: rgb(15, 15, 15);">
+                                      <span style="font-size: 28.8px; line-height: 34.56px;">澳大利亚国立大学亚太学院</span>
+                                    </td>
+                                  </tr>
+                                  <!--End Block Heading-->
+
+
+                                  
+<!-- 
+
+https://files.outfit.io/media_library_items/625492/16161727186217_.pic.jpg
+
+学院介绍
+
+澳大利亚国立大学（ANU）亚太学院是全球领先的亚洲和太平洋研究中心之一，汇集了众多学科、区域和公共政策领域的学者。该学院通过提供广泛的本科和研究生课程，致力于培养下一代区域专家和全球领导者。学生将有机会深入研究该地区的政治、文化、语言、经济和宗教，并与世界知名的专家和实践者共同学习。亚太学院不仅在学术研究上处于前沿，还通过与政府、企业和国际组织的合作，为学生提供丰富的实践经验和职业发展机会​。
+-->
+                                  
+                                  <tr>
+                                    <td width="100%" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; padding-bottom: 50px;">
+                                      <table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-padding-alt: 0; mso-cellspacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; border-collapse: collapse;">
+                                        <tbody><tr>
+                                          <!--#### Image ####-->
+                                          <td class="fullWidthBelow600" valign="top" width="170" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; padding-right: 46px; padding-top: 5px;">
+                                              <img src="https://files.outfit.io/media_library_items/625492/16161727186217_.pic.jpg" height="170" width="170" style="display: block; padding: 0; border: 0px;">
+                                          </td>
+                                          <!--#### //Image ####-->
+                                          <!--#### Body Copy ####-->
+                                          <!-- DTB-6839 
+                                          <td class="fullWidthBelow600 mt10Below600" valign="top"
+                                              style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-family: 'Public Sans', Arial, sans-serif;"
+                                              data-max-height="200">-->
+                                          <td class="fullWidthBelow600 mt10Below600" valign="top" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-family: 'Public Sans', Arial, sans-serif;">
+
+                                            <table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-padding-alt: 0; mso-cellspacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; border-collapse: collapse;">
+
+                                              <!--Heading-->
+                                              <tbody><tr>
+                                                <td data-bc-hook="block-text" valign="top" style="text-size-adjust: 100%; font-family: &quot;Public Sans&quot;, Arial, sans-serif; font-size: 28.8px; padding-bottom: 10px; color: rgb(15, 15, 15);">
+                                                  <div style="font-size: 100%; line-height: 120%;">学院介绍</div>
+                                                </td>
+                                              </tr>
+                                              <!--//Heading-->
+
+                                              <!--Body Copy-->
+                                              <tr>
+                                                <td data-bc-hook="block-text" valign="top" style="text-size-adjust: 100%; font-family: &quot;Public Sans&quot;, Arial, sans-serif; font-size: 13.9px; line-height: 22.24px; font-weight: 300; color: rgb(15, 15, 15);">
+                                                  澳大利亚国立大学（ANU）亚太学院是全球领先的亚洲和太平洋研究中心之一，汇集了众多学科、区域和公共政策领域的学者。该学院通过提供广泛的本科和研究生课程，致力于培养下一代区域专家和全球领导者。学生将有机会深入研究该地区的政治、文化、语言、经济和宗教，并与世界知名的专家和实践者共同学习。亚太学院不仅在学术研究上处于前沿，还通过与政府、企业和国际组织的合作，为学生提供丰富的实践经验和职业发展机会​。
+                                                </td>
+                                              </tr>
+                                              <!--//Body Copy-->
+
+                                            </tbody></table>
+
+                                          </td>
+                                          <!--#### //Body Copy ####-->
+                                        </tr>
+                                        
+                                        
+                                        
+                                      </tbody></table>
+                                    </td>
+                                  </tr>
+                                  
+<!-- 
+
+https://files.outfit.io/media_library_items/625489/16121727185199_.pic.jpg
+
+学院学科排名
+
+在《2024年QS世界大学学科排名》中，澳国立亚太学院多门学科也是名列前茅，包括：<br />
+<ul>
+<li><span class="tinymce_style--dark">政治学（世界第8名）</span></li>
+<li><span class="tinymce_style--dark">发展研究（世界第10名）</span></li>
+<li><span class="tinymce_style--dark">社会政策与管理（世界第14名）</span></li>
+</ul>
+-->
+                                  
+                                  <tr>
+                                    <td width="100%" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; padding-bottom: 50px;">
+                                      <table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-padding-alt: 0; mso-cellspacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; border-collapse: collapse;">
+                                        <tbody><tr>
+                                          <!--#### Image ####-->
+                                          <td class="fullWidthBelow600" valign="top" width="170" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; padding-right: 46px; padding-top: 5px;">
+                                              <img src="https://files.outfit.io/media_library_items/625489/16121727185199_.pic.jpg" height="170" width="170" style="display: block; padding: 0; border: 0px;">
+                                          </td>
+                                          <!--#### //Image ####-->
+                                          <!--#### Body Copy ####-->
+                                          <!-- DTB-6839 
+                                          <td class="fullWidthBelow600 mt10Below600" valign="top"
+                                              style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-family: 'Public Sans', Arial, sans-serif;"
+                                              data-max-height="200">-->
+                                          <td class="fullWidthBelow600 mt10Below600" valign="top" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-family: 'Public Sans', Arial, sans-serif;">
+
+                                            <table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-padding-alt: 0; mso-cellspacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; border-collapse: collapse;">
+
+                                              <!--Heading-->
+                                              <tbody><tr>
+                                                <td data-bc-hook="block-text" valign="top" style="text-size-adjust: 100%; font-family: &quot;Public Sans&quot;, Arial, sans-serif; font-size: 28.8px; padding-bottom: 10px; color: rgb(15, 15, 15);">
+                                                  <div style="font-size: 100%; line-height: 120%;">学院学科排名</div>
+                                                </td>
+                                              </tr>
+                                              <!--//Heading-->
+
+                                              <!--Body Copy-->
+                                              <tr>
+                                                <td data-bc-hook="block-text" valign="top" style="text-size-adjust: 100%; font-family: &quot;Public Sans&quot;, Arial, sans-serif; font-size: 13.9px; line-height: 22.24px; font-weight: 300; color: rgb(15, 15, 15);">
+                                                  在《2024年QS世界大学学科排名》中，澳国立亚太学院多门学科也是名列前茅，包括：<br>
+<ul>
+<li><span class="tinymce_style--dark" style="color: rgb(15, 15, 15); font-size: 13.9px; line-height: 22.24px;">政治学（世界第8名）</span></li>
+<li><span class="tinymce_style--dark" style="color: rgb(15, 15, 15); font-size: 13.9px; line-height: 22.24px;">发展研究（世界第10名）</span></li>
+<li><span class="tinymce_style--dark" style="color: rgb(15, 15, 15); font-size: 13.9px; line-height: 22.24px;">社会政策与管理（世界第14名）</span></li>
+</ul>
+                                                </td>
+                                              </tr>
+                                              <!--//Body Copy-->
+
+                                            </tbody></table>
+
+                                          </td>
+                                          <!--#### //Body Copy ####-->
+                                        </tr>
+                                        
+                                        
+                                        
+                                      </tbody></table>
+                                    </td>
+                                  </tr>
+                                  
+<!-- 
+
+https://files.outfit.io/media_library_items/625490/16101727184600_.pic.jpg
+
+学院目前提供以下五个本科课程：
+
+1. 亚洲研究学士（Bachelor of Asian Studies）：该课程使学生掌握亚洲语言，深入了解该地区，并发展强大的分析技能。学生将通过历史、文化、经济和政治等多学科的视角来研究亚洲。<br /><br />2. 太平洋研究学士（Bachelor of Pacific Studies）：此课程为学生提供理解大洋洲多样性、历史和当代问题的理论框架，培养他们在这一快速变化的动态区域中担任领导角色的能力。<br /><br />3. 国际安全研究学士（Bachelor of International Security Studies）：该课程帮助学生掌握分析技能，并深入了解当今世界面临的安全挑战，特别是亚太地区的安全威胁，包括军事力量、内战、网络犯罪、环境退化和粮食安全等。<br /><br />4. 亚太事务与全球自由艺术学士（Bachelor of Asia Pacific Affairs &amp; Bachelor of Global Liberal Arts）：这是一个与立命馆大学（Ritsumeikan University）合作的双学位课程，学生将分别在澳大利亚和日本学习，深入了解亚太地区，并获得两所大学的学位。<br /><br />5. 哲学学士（荣誉学位）- 人文与社会科学（Bachelor of Philosophy (Honours) &ndash; Humanities and Social Sciences）：该课程为学生提供快速进入研究、企业或政策领导岗位的机会，是一个结构化的跨学科学位课程。
+-->
+                                  
+                                  <tr>
+                                    <td width="100%" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; padding-bottom: 50px;">
+                                      <table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-padding-alt: 0; mso-cellspacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; border-collapse: collapse;">
+                                        <tbody><tr>
+                                          <!--#### Image ####-->
+                                          <td class="fullWidthBelow600" valign="top" width="170" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; padding-right: 46px; padding-top: 5px;">
+                                              <img src="https://files.outfit.io/media_library_items/625490/16101727184600_.pic.jpg" height="170" width="170" style="display: block; padding: 0; border: 0px;">
+                                          </td>
+                                          <!--#### //Image ####-->
+                                          <!--#### Body Copy ####-->
+                                          <!-- DTB-6839 
+                                          <td class="fullWidthBelow600 mt10Below600" valign="top"
+                                              style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-family: 'Public Sans', Arial, sans-serif;"
+                                              data-max-height="200">-->
+                                          <td class="fullWidthBelow600 mt10Below600" valign="top" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-family: 'Public Sans', Arial, sans-serif;">
+
+                                            <table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-padding-alt: 0; mso-cellspacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; border-collapse: collapse;">
+
+                                              <!--Heading-->
+                                              <tbody><tr>
+                                                <td data-bc-hook="block-text" valign="top" style="text-size-adjust: 100%; font-family: &quot;Public Sans&quot;, Arial, sans-serif; font-size: 28.8px; padding-bottom: 10px; color: rgb(15, 15, 15);">
+                                                  <div style="font-size: 100%; line-height: 120%;">学院目前提供以下五个本科课程：</div>
+                                                </td>
+                                              </tr>
+                                              <!--//Heading-->
+
+                                              <!--Body Copy-->
+                                              <tr>
+                                                <td data-bc-hook="block-text" valign="top" style="text-size-adjust: 100%; font-family: &quot;Public Sans&quot;, Arial, sans-serif; font-size: 13.9px; line-height: 22.24px; font-weight: 300; color: rgb(15, 15, 15);">
+                                                  1. 亚洲研究学士（Bachelor of Asian Studies）：该课程使学生掌握亚洲语言，深入了解该地区，并发展强大的分析技能。学生将通过历史、文化、经济和政治等多学科的视角来研究亚洲。<br><br>2. 太平洋研究学士（Bachelor of Pacific Studies）：此课程为学生提供理解大洋洲多样性、历史和当代问题的理论框架，培养他们在这一快速变化的动态区域中担任领导角色的能力。<br><br>3. 国际安全研究学士（Bachelor of International Security Studies）：该课程帮助学生掌握分析技能，并深入了解当今世界面临的安全挑战，特别是亚太地区的安全威胁，包括军事力量、内战、网络犯罪、环境退化和粮食安全等。<br><br>4. 亚太事务与全球自由艺术学士（Bachelor of Asia Pacific Affairs &amp; Bachelor of Global Liberal Arts）：这是一个与立命馆大学（Ritsumeikan University）合作的双学位课程，学生将分别在澳大利亚和日本学习，深入了解亚太地区，并获得两所大学的学位。<br><br>5. 哲学学士（荣誉学位）- 人文与社会科学（Bachelor of Philosophy (Honours) – Humanities and Social Sciences）：该课程为学生提供快速进入研究、企业或政策领导岗位的机会，是一个结构化的跨学科学位课程。
+                                                </td>
+                                              </tr>
+                                              <!--//Body Copy-->
+
+                                            </tbody></table>
+
+                                          </td>
+                                          <!--#### //Body Copy ####-->
+                                        </tr>
+                                        
+                                        
+                                        
+                                      </tbody></table>
+                                    </td>
+                                  </tr>
+                                  
+<!-- 
+
+https://files.outfit.io/media_library_items/625494/16201727186453_.pic.jpg
+
+太平洋研究学士课程
+
+太平洋地区在确定我们世界的战略、政治和经济方向方面发挥着越来越重要的作用。通过澳大利亚国立大学专门开设的太平洋研究学士课程，您将深入了解世界上最具活力和全球意义的一些地区的政治、历史、文化、语言、经济和宗教。<br /><br />学生们将向人类学（全球第 9 位）、政治学（全球第 8 位）、国际关系、语言、地理学（全球第 11 位）、安全、发展研究（全球第 10 位）、 考古学（全球第 8 位）等领域的世界一流专家学习*。 （*2024 QS全球学科排名）<br /><br />📖 此学位特色：<br /><br />✨ 3年全日制课程：太平洋研究学士学位将使您深入了解大洋洲以及与大洋洲合作的国家所面临的各种跨学科问题。完成该课程后，您将掌握历史和当代框架和知识，在您的专业领域的发展、讨论和指导中它们将发挥主导作用。<br /><br />✨双学位选择：太平洋研究学士学位可与澳大利亚国立大学的另一个本科学位结合，只需多读一年即可完成两个学位的课程。<br /><br />✨语言与实习机会：作为学习的一部分，您有机会学习太平洋语言：德顿语（Tetum）和托克皮辛语（Tok Pisin）。您将有机会在大洋洲进行学分实习和交流项目，以增进您对该地区的了解并发展您的人际网络。<br /><br />
+<ul>
+<li>学制: 3年全日制</li>
+<li>学费: 国际学生年费约为 50,500澳元</li>
+<li>入学要求:国际申请者需满足英语语言要求（例如雅思总分不低于6.5）</li>
+<li>基于学术成绩，如 ATAR不低于85 或同等资格</li>
+<li>学习内容: 专注于太平洋地区的文化、政治、历史等方面的深度研究</li>
+</ul>
+<br />更多信息请访问 <a style="color: #0e0f0f;" href="https://programsandcourses.anu.edu.au/program/bpast">ANU官网</a>。
+-->
+                                  
+                                  <tr>
+                                    <td width="100%" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; padding-bottom: 50px;">
+                                      <table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-padding-alt: 0; mso-cellspacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; border-collapse: collapse;">
+                                        <tbody><tr>
+                                          <!--#### Image ####-->
+                                          <td class="fullWidthBelow600" valign="top" width="170" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; padding-right: 46px; padding-top: 5px;">
+                                              <img src="https://files.outfit.io/media_library_items/625494/16201727186453_.pic.jpg" height="170" width="170" style="display: block; padding: 0; border: 0px;">
+                                          </td>
+                                          <!--#### //Image ####-->
+                                          <!--#### Body Copy ####-->
+                                          <!-- DTB-6839 
+                                          <td class="fullWidthBelow600 mt10Below600" valign="top"
+                                              style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-family: 'Public Sans', Arial, sans-serif;"
+                                              data-max-height="200">-->
+                                          <td class="fullWidthBelow600 mt10Below600" valign="top" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-family: 'Public Sans', Arial, sans-serif;">
+
+                                            <table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-padding-alt: 0; mso-cellspacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; border-collapse: collapse;">
+
+                                              <!--Heading-->
+                                              <tbody><tr>
+                                                <td data-bc-hook="block-text" valign="top" style="text-size-adjust: 100%; font-family: &quot;Public Sans&quot;, Arial, sans-serif; font-size: 28.8px; padding-bottom: 10px; color: rgb(15, 15, 15);">
+                                                  <div style="font-size: 100%; line-height: 120%;">太平洋研究学士课程</div>
+                                                </td>
+                                              </tr>
+                                              <!--//Heading-->
+
+                                              <!--Body Copy-->
+                                              <tr>
+                                                <td data-bc-hook="block-text" valign="top" style="text-size-adjust: 100%; font-family: &quot;Public Sans&quot;, Arial, sans-serif; font-size: 13.9px; line-height: 22.24px; font-weight: 300; color: rgb(15, 15, 15);">
+                                                  太平洋地区在确定我们世界的战略、政治和经济方向方面发挥着越来越重要的作用。通过澳大利亚国立大学专门开设的太平洋研究学士课程，您将深入了解世界上最具活力和全球意义的一些地区的政治、历史、文化、语言、经济和宗教。<br><br>学生们将向人类学（全球第 9 位）、政治学（全球第 8 位）、国际关系、语言、地理学（全球第 11 位）、安全、发展研究（全球第 10 位）、 考古学（全球第 8 位）等领域的世界一流专家学习*。 （*2024 QS全球学科排名）<br><br>📖 此学位特色：<br><br>✨ 3年全日制课程：太平洋研究学士学位将使您深入了解大洋洲以及与大洋洲合作的国家所面临的各种跨学科问题。完成该课程后，您将掌握历史和当代框架和知识，在您的专业领域的发展、讨论和指导中它们将发挥主导作用。<br><br>✨双学位选择：太平洋研究学士学位可与澳大利亚国立大学的另一个本科学位结合，只需多读一年即可完成两个学位的课程。<br><br>✨语言与实习机会：作为学习的一部分，您有机会学习太平洋语言：德顿语（Tetum）和托克皮辛语（Tok Pisin）。您将有机会在大洋洲进行学分实习和交流项目，以增进您对该地区的了解并发展您的人际网络。<br><br>
+<ul>
+<li>学制: 3年全日制</li>
+<li>学费: 国际学生年费约为 50,500澳元</li>
+<li>入学要求:国际申请者需满足英语语言要求（例如雅思总分不低于6.5）</li>
+<li>基于学术成绩，如 ATAR不低于85 或同等资格</li>
+<li>学习内容: 专注于太平洋地区的文化、政治、历史等方面的深度研究</li>
+</ul>
+<br>更多信息请访问 <a style="color: #0e0f0f;" href="https://programsandcourses.anu.edu.au/program/bpast">ANU官网</a>。
+                                                </td>
+                                              </tr>
+                                              <!--//Body Copy-->
+
+                                            </tbody></table>
+
+                                          </td>
+                                          <!--#### //Body Copy ####-->
+                                        </tr>
+                                        
+                                        
+                                        
+                                      </tbody></table>
+                                    </td>
+                                  </tr>
+                                </tbody></table>
+                              </td>
+                            </tr>
+                            <!--#### //ROW ARTICLE ####-->
+
+
+
+                          
+                          	
+                  
+                            
+
+
+                          
+
+
+
+                            <!--#### CALL OUT SECTION ####-->
+                            <tr data-bc-hook="block" data-bc-block-type="secondary" data-block-background-override="none" style="background: rgb(255, 255, 255);">
+                              <td width="100%" valign="top" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; padding-top: 47px; padding-bottom: 50px; padding-left: 84px; padding-right: 120px;">
+                                <table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-padding-alt: 0; mso-cellspacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; text-align: left; border-collapse: collapse;">
+
+                                  <!--#### Body Copy Collection ####-->
+                                  <tbody><tr>
+                                    <td width="100%" valign="top" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;">
+                                        <!-- DTB-6839 
+                                      <table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" data-max-height="410"
+                                             style= "mso-padding-alt: 0; mso-cellspacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; border-collapse: collapse;">-->
+                                      <table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-padding-alt: 0; mso-cellspacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; border-collapse: collapse;">
+
+
+                                        <tbody><tr>
+                                          <td valign="top" style="text-size-adjust: 100%; padding-bottom: 15px; font-family: &quot;Public Sans&quot;, Arial, sans-serif; font-size: 38.4px; color: rgb(15, 15, 15);" data-bc-hook="block-text">
+                                            <div style="font-size: 100%; line-height: 110%;">ANU现已开放10周的英语语言课程</div>
+                                          </td>
+                                        </tr>
+
+
+
+
+
+
+                                        <tr>
+                                          <td valign="top" style="text-size-adjust: 100%; padding-bottom: 23px; font-family: &quot;Public Sans&quot;, Arial, sans-serif; font-size: 13.8px; line-height: 22px; font-weight: 300; color: rgb(15, 15, 15);" data-bc-hook="block-text">澳大利亚国立大学（ANU）现已开放10周的英语语言课程，该课程旨在帮助学生满足ANU的英语语言入学要求。该项目为有条件录取的学生提供了一个快速通道，帮助他们在2025年第一学期正式入学前提升英语水平。<br><br>该语言班将于2024年11月11日开始，至2025年1月31日结束，学费为4950澳元。课程由堪培拉大学（UC）提供，学生在完成该课程后可以直接进入ANU的学位学习。这不仅是一个提升英语能力的机会，也是融入澳大利亚校园生活的良好过渡。<br><br>该课程名额有限，建议有意向的同学尽早申请。<a href="https://study.anu.edu.au/apply/international-applications/new-english-language-program" style="color: rgb(14, 15, 15);">更多详情请访问ANU官方网站获取最新信息。</a></td>
+                                        </tr>
+
+                                      </tbody></table>
+                                    </td>
+                                  </tr>
+                                  <!--#### //Body Copy Collection ####-->
+
+                                </tbody></table>
+                              </td>
+                            </tr>
+                            <!--#### //CALL OUT SECTION ####-->
+
+
+                          
+                          	
+                  
+                            
+
+
+                          
+
+
+
+
+
+                            <!--#### IMAGE SPLIT SECTION DARK ####-->
+                          
+<!-- 
+
+
+https://files.outfit.io/media_library_items/625496/16261727188637_.pic.jpg
+
+
+-->
+                            <tr data-bc-hook="block" data-bc-block-type="primary" data-block-background-override="none" style="background: rgb(245, 237, 222);">
+                              <td width="100%" valign="top" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;">
+                                <table dir="rtl" width="100%" valign="top" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-padding-alt: 0; mso-cellspacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; font-size: 0; border-collapse: collapse;">
+                                  <tbody><tr>
+                                    <!--#### Image ####-->
+                                    <td class="fullWidthBelow600 splitSecImage" width="257" valign="center" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-size: 0;">
+
+                                        <img src="https://files.outfit.io/media_library_items/625496/16261727188637_.pic.jpg" valign="top" width="257" height="347" style="display: block; margin-right: auto; padding: 0; border: 0px; -ms-interpolation-mode: bicubic; ">
+                                      <p style="text-size-adjust: 100%; padding-top: 20px; padding-bottom: 20px; line-height: 22.24px; font-weight: 300; font-size: 13.9px; color: rgb(15, 15, 15); text-align: left;">
+                                      </p>
+                                    </td>
+                                    
+                                    <!--#### //Image ####-->
+                                    <!--#### Body Copy ####-->
+                                    <td class="fullWidthBelow600 splitSecBodyCopy" width="343" valign="top" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;">
+                                      <table width="100%" valign="top" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-padding-alt: 0; mso-cellspacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; border-collapse: collapse;">
+                                        <tbody><tr>
+                                          <td class="tdBodyCopy" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; padding-top: 56px; padding-left: 41px; padding-right: 50px; text-align: left;" dir="ltr">
+                                            <table width="100%" valign="top" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-padding-alt: 0; mso-cellspacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; font-size: 15px; border-collapse: collapse;">
+
+                                              <tbody><tr>
+                                                <td valign="top" style="text-size-adjust: 100%; padding-bottom: 23px; font-family: &quot;Public Sans&quot;, Arial, sans-serif; font-size: 28.8px; color: rgb(15, 15, 15);" data-bc-hook="block-text">
+                                                  <div style="font-size: 100%; line-height: 120%;">澳国立科学传播专业 &amp; 国家“科学马戏团”</div>
+                                                </td>
+                                              </tr>
+
+
+
+
+                                              <tr>
+                                                <td valign="top" style="text-size-adjust: 100%; padding-bottom: 20px; font-family: &quot;Public Sans&quot;, Arial, sans-serif; font-size: 13.9px; line-height: 22.24px; font-weight: 300; color: rgb(15, 15, 15);" data-bc-hook="block-text">澳国立科学传播专业与科学马戏团有密切的关联，特别是在如何通过互动和娱乐的方式向公众传达科学知识方面。<br><br>“科学马戏团”是由澳大利亚外交贸易部支持的开创性科学、技术、工程和数学（STEM）通信和教育能力建设项目，是由澳大利亚国家科学中心与壳牌公司及澳国立联合发起的一项理论指导实践项目，该项目主要帮助学生了解和掌握足够的知识和技能，去讨论科学交流实践的概念，使用多种手段、媒体和技术，为不同的受众考虑科学沟通策略，并深入理解现代世界科学的伦理责任。&nbsp;<br><br>科学马戏团通过科学表演、工作坊和社区参与活动，培养学生在真实场景中与观众互动的能力，帮助他们发展有效的科学传播技巧。许多科学传播专业的学生在完成课程时都会有机会参与这一项目，获得实践经验。<br><br>“科学马戏团” 项目于1985年启动，它不仅是澳大利亚，也是世界上运作时间最长、行程距离最远的科学中心外展服务项目，其表现形式主要通过车载运输方式将小型展品和科普器材运到全国甚至世界各地进行展出和互动，巡演团队一般有15名工作人员，其中10名是澳国立在读的硕士研究生，这些学生承担了布展、展示、讲解、表演等主要工作，30多年来“科学马戏团”开展了15000多次科学秀表演，举行的职业提升培训班让许多科学教师受益，激起了众多孩子们的科学热情。如今，澳大利亚政府已将“科学马戏团”视为重要外交项目，而多位曾在马戏团锻炼过的团员，如今也独当一面，在缅甸、泰国、韩国、蒙古、文莱等国开展了许多科学传播项目，促进了全球科学传播人才培养事业的发展。<br><br>从20世纪80年代末开始，澳大利亚就非常重视科学传播，逐渐把它与国家的经济建设和可持续发展密切联系起来，并最终将其列为国家科技政策不可分割的组成部分。因此，澳大利亚的科学传播无论从理论研究还是实践方面，都走在世界前列。澳国立的科学传播学拥有30多年的历史，是世界上最早开办此项目的学校之一。 <br><br><a href="https://mp.weixin.qq.com/s/_LUBwqzt4JL0AlcFddZpRQ" style="color: rgb(14, 15, 15);">🔬 点击链接报名：澳国立理学院学术讲堂《带你深度了解科学传播》</a></td>
+                                              </tr>
+
+                                            </tbody></table>
+                                          </td>
+                                        </tr>
+
+                                      </tbody></table>
+                                    </td>
+                                    <!--#### //Body Copy ####-->
+                                    
+                                  </tr>
+                                
+                                  
+                                  <!--   -->
+                                
+                                
+                                </tbody></table>
+                              </td>
+                            </tr>
+                            <!--#### //IMAGE SPLIT SECTION DARK ####-->
+                          
+                          	
+                  
+                            
+
+
+                          
+
+
+
+
+                            <!--#### IMAGE SPLIT SECTION LIGHT ####-->
+                          
+
+<!--
+
+
+https://files.outfit.io/media_library_items/549003/WechatIMG426.jpeg
+
+
+-->
+                            <tr data-bc-hook="block" data-bc-block-type="secondary" data-block-background-override="none" style="background: rgb(255, 255, 255);">
+                              <td width="100%" valign="top" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;">
+                                <table width="100%" valign="top" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-padding-alt: 0; mso-cellspacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; font-size: 0; border-collapse: collapse;">
+                                  <tbody><tr>
+                                    <!--#### Image ####-->
+                                    <td class="fullWidthBelow600 splitSecImage" width="257" valign="center" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-size: 0; padding-top: 0; padding-bottom: 0;">                  
+                                        <img src="https://files.outfit.io/media_library_items/549003/WechatIMG426.jpeg" valign="top" width="257" height="347" style="display: block; padding: 0; border: 0px; -ms-interpolation-mode: bicubic; ">    
+                                      <p style="text-size-adjust: 100%; margin-left: 35px; padding-top: 20px; padding-bottom: 20px; line-height: 22.24px; font-weight: 300; font-size: 13.9px; color: rgb(15, 15, 15); text-align: left;">
+                                      </p>               
+                                    </td>
+                                    <!--#### //Image ####-->
+                                    <!--#### Body Copy ####-->
+                                    <td class="fullWidthBelow600 splitSecBodyCopy" width="343" valign="top" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;">
+                                      <table width="100%" valign="top" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-padding-alt: 0; mso-cellspacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; border-collapse: collapse;">
+                                        <tbody><tr>
+                                          <td class="tdBodyCopy" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; padding-top: 74px; padding-left: 46px; padding-right: 62px; text-align: left;">
+                                            <table width="100%" valign="top" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-padding-alt: 0; mso-cellspacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; font-size: 15px; border-collapse: collapse;">
+
+
+                                              <tbody><tr>
+                                                <td valign="top" style="text-size-adjust: 100%; padding-bottom: 23px; font-family: &quot;Public Sans&quot;, Arial, sans-serif; font-size: 28.8px; color: rgb(15, 15, 15);" data-bc-hook="block-text">
+                                                  <div style="font-size:100%; line-height: 120%;">联系我们</div>
+                                                </td>
+                                              </tr>
+
+
+
+
+                                              <tr>
+                                                <td valign="top" style="text-size-adjust: 100%; padding-bottom: 20px; font-family: &quot;Public Sans&quot;, Arial, sans-serif; font-size: 13.9px; line-height: 22.24px; font-weight: 300; color: rgb(15, 15, 15);" data-bc-hook="block-text">北京市东城区东长安街1号东方广场E1-809<br>Room 809, E1 Tower, No. 1 East Chang’An Avenue,<br>Dongcheng District, Beijing, CHINA 100005<br>电话: +86 010 8518 1269<br><br>上海市静安区南京西路1168号中信泰富广场商务楼4202室<br>Unit 4202, Level 42, CITIC Square, 1168 Nanjing West Road, Jingan District, Shanghai, CHINA 200041<br>电话: +86 021 5117 9519<br><br>邮箱: China.liaison@anu.edu.au</td>
+                                              </tr>
+
+                                            </tbody></table>
+                                          </td>
+                                        </tr>
+                                      </tbody></table>
+
+                                    </td>
+                                    <!--#### //Body Copy ####-->
+                                  </tr>
+                                  
+                                  <!--  -->
+                                  
+                                </tbody></table>
+                              </td>
+                            </tr>
+                            <!--#### //IMAGE SPLIT SECTION LIGHT ####-->
+
+                          
+                          	
+                  
+
+                            <!--#### FOOTER ####-->
+                            <tr data-bc-hook="static-block" data-fi-hook="footer" data-fi-show-spacer="hide" style="background: rgb(255, 255, 255);">
+                              <!--#### Layout table ####-->
+                              <td width="100%" valign="top" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-size: 0;">
+                                <table class="footer" width="100%" valign="top" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-padding-alt: 0; mso-cellspacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; font-size: 0; border-collapse: collapse;">
+                                  <tbody><tr>
+                                    <!--#### left column (text) ####-->
+                                    <td valign="top" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;">
+                                      <table width="100%" valign="top" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-padding-alt: 0; mso-cellspacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; font-size: 0; border-collapse: collapse;">
+                                        <tbody><tr>
+                                          <td valign="top" style="padding-top: 61px; padding-bottom: 20px; padding-left: 40px; padding-right: 20px;">
+                                            <table width="100%" valign="top" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-padding-alt: 0; mso-cellspacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; font-size: 0; border-collapse: collapse;">
+                                              <!--#### Footer headline, contact details, social media and body copy ####-->
+                                              <tbody><tr>
+                                                <td>
+                                                  <!-- LEFT TABLE -->
+                                                  <table align="left" border="0" cellpadding="0" cellspacing="0" class="table-left" style="mso-padding-alt: 0; mso-cellspacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; display: inline-block; border-collapse: collapse;">
+                                                      <tbody><tr>
+                                                          <!--#### Footer headline, contact details, social media ####-->
+                                                          <!--<td width="144" class="fullWidthBelow600" valign="top" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; padding-right: 30px;"> -->
+                                                          <td width="190" class="fullWidthBelow600" valign="top" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; padding-right: 20px; min-width: 190px; max-width: 190px;"> 
+                                                            <table width="100%" valign="top" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-padding-alt: 0; mso-cellspacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; font-size: 0; border-collapse: collapse;">
+
+                                                              <!--#### Social media ####-->
+                                                              <tbody><tr>
+                                                                <td valign="top" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;">
+                                                                  <table valign="top" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-padding-alt: 0; mso-cellspacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; border-collapse: collapse;">
+                                                                    <tbody><tr>
+                                                                      <!--#### Facebook ####-->  
+                                                                      <td valign="top" width="23" style="text-size-adjust: 100%; padding-right: 13px; min-width: 23px; max-width: 23px; color: rgb(15, 15, 15);" data-bc-hook="static-block-text">
+                                                                        <a href="#" target="_blank" style="color: rgb(14, 15, 15);">
+                                                                          <img src="https://files.outfit.io/media_library_items/265891/ANU-facebook.png" width="23" height="23" style="display: block; padding: 0; border: 0px; -ms-interpolation-mode: bicubic;">
+                                                                        </a>
+                                                                      </td>
+                                                                      <!--#### //Facebook ####-->
+
+                                                                      <!--#### Linkedin ####-->
+                                                                      <td valign="top" width="23" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; padding-right: 13px; min-width: 23px; max-width: 23px;">
+                                                                        <a href="#" target="_blank">
+                                                                          <img src="https://files.outfit.io/media_library_items/265893/ANU-linkedin.png" width="23" height="23" style="display: block; padding: 0; border: 0px; -ms-interpolation-mode: bicubic;">
+                                                                        </a>
+                                                                      </td>
+                                                                      <!--#### //Linkedin ####-->
+
+                                                                      <!--#### Instagram ####-->
+                                                                      <td valign="top" width="23" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; padding-right: 13px; min-width: 23px; max-width: 23px;">
+                                                                        <a href="#" target="_blank">
+                                                                          <img src="https://files.outfit.io/media_library_items/265892/ANU-instagram.png" width="23" height="23" style="display: block; padding: 0; border: 0px; -ms-interpolation-mode: bicubic;">
+                                                                        </a>
+                                                                      </td>
+                                                                      <!--#### //Instagram ####-->
+
+                                                                      <!--#### Twitter ####-->
+                                                                      <td valign="top" width="23" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; padding-right: 13px; min-width: 23px; max-width: 23px;">
+                                                                        <a href="#" target="_blank">
+                                                                          <img src="https://files.outfit.io/media_library_items/265890/ANU-twitter.png" width="23" height="23" style="display: block; padding: 0; border: 0px; -ms-interpolation-mode: bicubic;">
+                                                                        </a>
+                                                                      </td>
+                                                                      <!--#### //Twitter ####-->
+                                                                    </tr>
+                                                                  </tbody></table>
+                                                                </td>
+                                                              </tr>
+                                                              <!--#### //Social media ####-->
+                                                            </tbody></table>
+                                                          </td>
+                                                          <!--#### //Footer headline, contact details, social media ####-->
+                                                          <!--#### Body copy ####-->
+                                                          <td width="260" class="fullWidthBelow600 pt25Below600" valign="top" style="text-size-adjust: 100%; font-family: &quot;Public Sans&quot;, Arial, sans-serif; font-size: 12px; line-height: 14.4px; font-weight: 300; min-width: 260px; max-width: 260px; color: rgb(15, 15, 15);" data-bc-hook="static-block-text">
+                                                            <!-- DTB-6839 
+                                                            <div data-max-height="120">The Australian National University,<br />Canberra<br /><br />CRICOS Provider : 00120C<br />ABN : 52 234 063 906<br /><br />If you do not wish to receive future<br />emails from us, please unsubscribe by emailing China.liasion@anu.edu.au</div>-->
+                                                            <div>The Australian National University,<br>Canberra<br><br>CRICOS Provider : 00120C<br>ABN : 52 234 063 906<br><br>If you do not wish to receive future<br>emails from us, please unsubscribe by emailing China.liasion@anu.edu.au</div>
+                                                          </td>
+                                                          <!--#### //Body copy ####-->
+                                                      </tr>
+                                                  </tbody></table>                                                  
+                                                </td>
+                                              </tr>
+                                              <!--#### //Footer headline, contact details, social media and body copy ####-->
+
+                                            </tbody></table>
+                                          </td>
+                                        </tr>
+                                      </tbody></table>
+                                    </td>
+                                    <!--#### //left column (text) ####-->
+
+                                    <!--#### right collumn logo with lines ####-->
+                                    <td width="105" valign="top" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;">
+                                      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-padding-alt: 0; mso-cellspacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; font-size: 0; border-collapse: collapse;">
+                                        <!--#### Line before logo ####-->
+                                        <tbody><tr>
+                                          <td valign="top" align="center" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;">
+                                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-padding-alt: 0; mso-cellspacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; font-size: 0; border-collapse: collapse;">
+                                              <tbody><tr>
+                                                <td valign="top" width="1" height="55" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; background-color: #be830e;">
+                                                </td>
+                                              </tr>
+                                            </tbody></table>
+                                          </td>
+                                        </tr>
+                                        <!--#### //Line before logo ####-->
+                                        <!--#### Logo ####-->
+                                        <tr>
+                                          <td valign="top" width="43" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; padding-top: 10px; padding-bottom: 10px;">
+                                            <img src="https://files.outfit.io/media_library_items/262520/ANU_Crest_Gold-logo.png" alt="Australian National University" width="43" height="50.26" style="display: block; padding: 0; border: 0px; -ms-interpolation-mode: bicubic;">
+                                          </td>
+                                        </tr>
+                                        <!--#### //Logo ####-->
+                                        <!--#### Line after logo ####-->
+                                        <tr>
+                                          <td valign="top" align="center" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;">
+                                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-padding-alt: 0; mso-cellspacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; font-size: 0; border-collapse: collapse;">
+                                              <tbody><tr>
+                                                <td class="line-after-logo" valign="top" width="1" height="100" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; background-color: #be830e">
+                                                </td>
+                                              </tr>
+                                            </tbody></table>
+                                          </td>
+                                        </tr>
+                                        <!--#### //Line after logo ####-->
+                                      </tbody></table>
+                                    </td>
+                                    <!--#### //right collumn logo with lines ####-->
+                                  </tr>
+                                </tbody></table>
+                              </td>
+                              <!--#### //Layout table ####-->
+                            </tr>
+                            <!--#### //FOOTER ####-->
+                          
+                        </tbody></table>
+            </center>
+                  </td>
+                  </tr>        
+                </tbody></table>
+                <!--#### //MAIN WRAPPER ####-->
+                  
+
+          
+         </td>
+                            </body>
+                            </html>
+                          
